@@ -1,0 +1,178 @@
+## This file was modified by HonKit26113 (@HonKit1103) and real_tlgm (@tlgm2308). Do not distribute without permission!
+
+hungerpoints.pack.name.noversion=Item Info+
+hungerpoints.licence.space= 	#
+
+hungerpoints.licence.pack_info_header=Thông tin gói
+hungerpoints.licence.text2=Phiên bản 1.11
+## or (Test Version) or (Beta Release)
+hungerpoints.licence.text2_1=Gói được làm bởi HonKit26113
+hungerpoints.licence.text2_2=Ra mắt vào ngày 30 thg 3, 2023
+hungerpoints.licence.text3_1=Đây là phiên bản thử nghiệm: có thể có lỗi và có thể không ổn định.
+
+
+
+hungerpoints.licence.legend_header=Chú giải
+hungerpoints.licence.legend_text1=Mục này chỉ áp dụng khi chế độ §6Hunger & Saturation Points Only§r đang hoạt động.
+hungerpoints.licence.legend_text2=§lHiển thị trên các vật phẩm thức ăn
+hungerpoints.licence.legend_text3= Điểm đói được bổ sung sau khi tiêu thụ vật phẩm.
+hungerpoints.licence.legend_text3_1= Điểm bão hòa được bổ sung sau khi tiêu thụ vật phẩm.
+hungerpoints.licence.legend_text4= Thời gian cần để tiêu thụ vật phẩm.
+hungerpoints.licence.legend_text4_1= Biểu tượng này chỉ xuất hiện nếu thực phẩm có hại khi ăn.
+hungerpoints.licence.legend_text5=§lHiển thị trên giáp
+hungerpoints.licence.legend_text6= Điểm giáp của một mảnh giáp nhận được sau khi mặt nó.
+hungerpoints.licence.legend_text7=§lHiển thị trên công cụ, vũ khí và  dụng cụ
+hungerpoints.licence.legend_text8= Lượng sát thương tấn công mà dụng cụ gây ra khi chưa được phù phép.
+hungerpoints.licence.legend_text9= Lượng sát thương tấn công bổ sung cho phù phép Sắc bén.
+hungerpoints.licence.legend_text10= Độ bền tối đa của vật phẩm. Giá trị không giảm xuống sau khi sử dụng.
+hungerpoints.licence.legend_text11=§lHiển thị trên trứng sinh ra
+hungerpoints.licence.legend_text12= Lượng máu mà sinh vật có.
+hungerpoints.licence.legend_text13= Có nghĩa là sinh vật này là thù địch.
+hungerpoints.licence.legend_text14=Có nghĩa là sinh vật này là trung tính.
+hungerpoints.licence.legend_text15= Có nghĩa là sinh vật này là sinh vật lành.
+hungerpoints.licence.legend_text15_1= Có nghĩa là sinh vật này là một Boss.
+hungerpoints.licence.legend_text16=§lHiển thị trên vật phẩm cờ hiệu
+hungerpoints.licence.legend_text17= Hiển thị các biểu tượng cho các hoa văn tương ứng.
+hungerpoints.licence.legend_text17_1=§lHiển thị trên khối & vật phẩm phát ra ánh sáng
+hungerpoints.licence.legend_text17_2= Hiển thị biểu tượng phụ thuộc vào độ sáng mà chúng phát ra.
+hungerpoints.licence.legend_text17_3=§lHiển thị trên đĩa nhạc
+hungerpoints.licence.legend_text17_4= Độ dài bài hát. Thời gian không đếm ngược khi được chơi.
+hungerpoints.licence.legend_text17_5=§lHiển thị trên pháo hoa
+hungerpoints.licence.legend_text17_6= Hiển thị các biểu tượng cho các hoa văn tương ứng.
+hungerpoints.licence.legend_text17_7=§lHiển thị trên thuốc
+hungerpoints.licence.legend_text17_8= Hiển thị các biểu tượng tùy thuộc vào hiệu ứng thuốc. Một số bình thuốc không có bất kỳ biểu tượng nào vì hiệu ứng này tự giải thích.
+hungerpoints.licence.legend_text18=§lHiển thị trên phù phép
+hungerpoints.licence.legend_text19=Dụng cụ nào có thể nhận phù phép?
+hungerpoints.licence.legend_text20= Tất cả dụng cụ
+hungerpoints.licence.legend_text21= Nón
+hungerpoints.licence.legend_text22= Áo
+hungerpoints.licence.legend_text23= Quần
+hungerpoints.licence.legend_text24= Ủng
+hungerpoints.licence.legend_text25= Kiếm
+hungerpoints.licence.legend_text26= Cuốc chim
+hungerpoints.licence.legend_text27= Xẻng
+hungerpoints.licence.legend_text28= Rìu
+hungerpoints.licence.legend_text29= Cuốc
+hungerpoints.licence.legend_text30= Cung
+hungerpoints.licence.legend_text31= Nỏ
+hungerpoints.licence.legend_text32= Đinh ba
+hungerpoints.licence.legend_text33= Cần câu cá
+hungerpoints.licence.legend_text34= Phù phép lời nguyền
+
+
+
+hungerpoints.licence.addon_header=Tương thích chéo với Add-on
+hungerpoints.licence.addon_text1=Item Info+ hỗ trợ add-on §6Beyond The Underground§r. Trong phần cài đặt thế giới của thế giới bạn muốn kích hoạt gói add-on này vào, đưa gói tài nguyên theo trật tự sắp xếp sau.
+hungerpoints.licence.addon_text2=Các chỉ số của vật phẩm giờ có thể xuất hiện trên tên của các vật phẩm tùy chỉnh này!
+hungerpoints.licence.addon_text3= §6Beyond The Underground§r là một add-on thêm nhiều loại hang mới cho bạn khám phá! Đã có trên §a MCPEDL§r.
+hungerpoints.licence.addon_text4= Lưu ý cho người chơi đang sử dụng §6The Ty-el's Vietnamese Language Pack§r: Item Info+ phải được đặt §6bên trên§r gói ngôn ngữ.
+
+
+
+hungerpoints.licence.changelog_header=Nhật ký thay đổi
+hungerpoints.licence.text31=§lNgôn ngữ mới được hỗ trợ!
+hungerpoints.licence.text32= 
+hungerpoints.licence.text33=
+hungerpoints.licence.text34=
+
+hungerpoints.licence.text35=§lThay đổi và bổ sung:
+hungerpoints.licence.text36= Các thông số của bình thuốc giờ được hiển thị trong tên vật phẩm của bình thuốc!
+hungerpoints.licence.text37= Đã thêm mô tả ngắn cho từng kiểu biểu tượng.
+hungerpoints.licence.text38= Biểu tượng Cấp độ Ánh sáng giờ đây đã có cái nhìn mới!
+hungerpoints.licence.text39= Đã thêm viền màu cho tất cả các biểu tượng thù địch của mob.
+hungerpoints.licence.text40= Đã cập nhật thiết kế biểu tượng Độ bền tối đa và biểu tượng Cảnh báo thức ăn có hại.
+hungerpoints.licence.text41= Đã cập nhật thiết kế biểu tượng ngôi sao để hiển thị những công cụ có thể áp dụng phù phép.
+hungerpoints.licence.text42= Đã cập nhật thiết kế biểu tượng các sinh vật Boss theo phong cách Minecraft Earth.
+hungerpoints.licence.text42_1= Đã thêm hỗ trợ cho Chổi quét.
+hungerpoints.licence.text42_2= Đã thêm hỗ trợ cho trứng sinh ra Kẻ đánh hơi và Lạc đà không bướu của thương nhân.
+hungerpoints.licence.text42_3= Gói này giờ hoạt động trên các máy chủ nổi bật và nhiều máy chủ bên thứ ba khác!
+hungerpoints.licence.text42_31= Gói này giờ tương thích với hầu hết các gói sử dụng các glyph tùy chỉnh.
+hungerpoints.licence.text42_32= Gói này không còn thay thế tệp glyph phiên bản gốc.
+hungerpoints.licence.text42_33= Gói này giờ hoạt động bình thường với Gói UI của Ty-el. (cảm ơn, real_tlgm!)
+hungerpoints.licence.text42_34= Tính năng thưởng: Ngôn ngữ trò chơi giờ có thể được thay đổi trong trò chơi! (cảm ơn, real_tlgm!)
+hungerpoints.licence.text42_35= Đã thay đổi một số bản dịch để phù hợp với Phiên bản Java bằng tiếng Trung giản thể và phồn thể.
+hungerpoints.licence.text42_36= Đã thêm hỗ trợ cho các vật phẩm mới từ add-on Beyond The Underground bằng tiếng Trung Giản thể và Phồn thể.
+hungerpoints.licence.text42_37= Gói này giờ yêu cầu Minecraft 1.18.0 trở lên để có thể hoạt động.
+
+hungerpoints.licence.text42_5=§lThay đổi và bổ sung Beta - những tính năng này chỉ có trong tiếng Anh trong các phiên bản Pre-Release:
+
+hungerpoints.licence.text44=§lSửa lỗi:
+hungerpoints.licence.text44_1= Gói này hiện hoạt động trên Realms!
+hungerpoints.licence.text44_2= Màn hình cài đặt giờ hoạt động chính xác trong các phiên bản cũ hơn 1.19.40. (cảm ơn, real_tlgm!)
+hungerpoints.licence.text44_3= Không còn khoảng trống thừa trong tên vật phẩm của Trứng sinh ra gấu bắc cực.
+hungerpoints.licence.text44_4= Không còn khoảng trống thừa trong tên vật phẩm của Trứng sinh ra NPC trong tiếng Trung Phồn thể.
+hungerpoints.licence.text44_5= Phù phép Rón rén nhanh nhẹn đã được dịch chính xác bằng tiếng Trung giản thể.
+
+hungerpoints.licence.text46=§lNhững vấn đề đã biết:
+
+
+
+hungerpoints.licence.credits_header=Tín nhiệm
+hungerpoints.licence.text10=§lNgười tạo:§r HonKit26113 ( @HonKit1103)
+hungerpoints.licence.text10_1=Cảm ơn NetherNinja ( @NetherNinja) vì đã làm ra panel cài đặt này!
+hungerpoints.licence.text11=§lDóng góp:
+hungerpoints.licence.text11_1= Thiết kế biểu tượng hoa văn cờ hiệu mới: ChilRx ( @chilrx)
+hungerpoints.licence.text11_2= Bản dịch tiếng Việt: real_tlgm ( @tlgm2308)
+hungerpoints.licence.text12=§lĐề xuất tính năng:
+hungerpoints.licence.text13= Thời gian tiêu thụ một vật phẩm: Koton Bads ( @Koton_Bads)
+hungerpoints.licence.text14= Điểm giáp: Zach Marc ( @NotDaRealZach)
+hungerpoints.licence.text15= Thanh đói một nửa được đặt phía trước thanh đói đầy: Ftere
+hungerpoints.licence.text15_1= Biểu tượng hoa văn cờ hiệu: DiamondGamerAsh ( @DiamondGamerAsh)
+hungerpoints.licence.text15_2= Biểu tượng cấp độ ánh sáng: DiamondGamerAsh ( @DiamondGamerAsh)
+hungerpoints.licence.text15_3= Biểu tượng bông pháo hoa: DiamondGamerAsh ( @DiamondGamerAsh)
+hungerpoints.licence.text15_5= Biểu tượng phù phép: TheMCGuy213
+hungerpoints.licence.text15_6= Điểm bão hòa: ECKOSOLDIER ( @eckoxsoldier)
+
+
+
+hungerpoints.licence.important_header=Quan trọng
+hungerpoints.licence.text21=Kể từ phiên bản 1.10, gói này chỉ được phát hành trên §a MCPEDL§r và ModBay. Vì sự an toàn của bạn, vui lòng không tải xuống gói này ở bất kỳ nơi nào khác.
+hungerpoints.licence.text22= 	#
+hungerpoints.licence.text23=Bạn KHÔNG được chia sẻ trực tiếp liên kết MediaFire để tải xuống. Hãy luôn chia sẻ liên kết đến trang §a MCPEDL§r của gói. KHÔNG được tự ý thiết lập liên kết tải xuống mới cho riêng bạn.
+hungerpoints.licence.text24= 	#
+hungerpoints.licence.text25=Nếu bạn định đưa gói này vào gói công khai của riêng mình, vui lòng nhắn tin trực tiếp cho tôi trên  §bTwitter @HonKit1103§r để có được sự cho phép của tôi trước. Vui lòng đảm bảo để lại tín nhiệm, nếu không gói của bạn có thể bị gỡ xuống vì lý do bản quyền.
+
+hungerpoints.licence.licence_header=Giấy phép
+hungerpoints.licence.creativecommonslabel=Gói này được cấp phép theo CC BY-ND 4.0. Để xem bản sao của giấy phép này, hãy truy cập http://creativecommons.org/licenses/by-nd/4.0/
+
+item.apple.name=Táo 
+item.baked_potato.name=Khoai tây bỏ lò 
+item.beetroot.name=Củ dền 
+item.beetroot_soup.name=Súp dền 
+item.bread.name=Bánh mì 
+item.cake.name=Bánh ngọt 
+item.carrot.name=Cà rốt 
+item.chorus_fruit.name=Quả Chorus 
+item.cooked_beef.name=Thịt bò chín 
+item.cooked_chicken.name=Thịt gà chín 
+item.cooked_fish.name=Cá tuyết chín 
+item.muttonCooked.name=Thịt cừu chín 
+item.cooked_porkchop.name=Thịt heo chín 
+item.cooked_rabbit.name=Thịt thỏ chín 
+item.cooked_salmon.name=Cá hồi chín 
+item.cookie.name=Bánh quy 
+item.dried_kelp.name=Tảo bẹ khô 
+item.appleEnchanted.name=Táo vàng được phù phép 
+item.golden_apple.name=Táo vàng 
+item.golden_carrot.name=Cà rốt vàng 
+item.honey_bottle.name=Chai mật ong 
+item.melon.name=Lát cắt dưa hấu 
+item.mushroom_stew.name=Súp nấm 
+item.poisonous_potato.name=Khoai tây độc  
+item.potato.name=Khoai tây 
+item.pufferfish.name=Cá nóc  
+item.pumpkin_pie.name=Bánh bí ngô 
+item.rabbit_stew.name=Súp thỏ hầm 
+item.beef.name=Thịt bò sống 
+item.chicken.name=Thịt gà sống  
+item.fish.name=Cá tuyết sống 
+item.muttonRaw.name=Thịt cừu sống 
+item.porkchop.name=Thịt heo sống 
+item.rabbit.name=Thịt thỏ sống 
+item.salmon.name=Cá hồi sống 
+item.rotten_flesh.name=Thịt thối rữa  
+item.spider_eye.name=Mắt nhện  
+item.suspicious_stew.name=Súp đáng ngờ 
+item.sweet_berries.name=Quả mọng ngọt 
+item.clownfish.name=Cá nhiệt đới 
+item.glow_berries.name=Quả mọng phát sáng 

@@ -1,0 +1,65 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Display information of blocks & items using icons!\nCreator: HonKit26113.",
+        "name": "Item Info+ v1.16.1T1",
+        "uuid": "1f487343-bb10-455a-9c37-3177c125a1d5",
+        "version": [
+            1,
+            9,
+            4
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "e6fc5ce3-c31d-4709-9c22-71796c38587a",
+            "version": [
+                1,
+                9,
+                4
+            ]
+        }
+    ],
+    "subpacks": [
+    	{
+    		"folder_name": "lessdetails",
+    		"name": "\n§6Hunger & Saturation Points Only§r\n§oOnly Shows Hunger & Saturation Points Given On Food Items and Harmful Food Warning Icons.§r\n\nNote: All Saturation bars are rounded to the nearest 0.5.",
+    		"memory_tier": 1
+    	},
+        {
+            "folder_name": "monochrome",
+            "name": "§e Monochrome Icons§r - §eJust black, gray, and white.§r\n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level, Harmful Food Warning Icons, and Potion Stats.§r",
+            "memory_tier": 1
+        },
+    	{
+    		"folder_name": "mceicons",
+    		"name": "§b Minecraft Earth Style Icons§r - §bColorful and vibrant!§r\n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level, Harmful Food Warning Icons, and Potion Stats.§r",
+    		"memory_tier": 1
+    	},
+    	{
+    		"folder_name": "newpack",
+    		"name": "§a Vanilla Style Icons§r - §aDesigns we're all familiar with!§r\n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level, Harmful Food Warning Icons, and Potion Stats.§r",
+    		"memory_tier": 1
+    	}
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " You must restart Minecraft for the changes to take effect! "
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu."
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@HonKit1103§r on Twitter for update news and announcements!"
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+// This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
+
+
+
+// Hunger Points Only (Old)
+"Hunger Points": "0xE100": 
+"Half Hunger Points": "0xE108": 
+"Full Saturation & Full Hunger": "0xE111": 
+"Full Saturation & Half Hunger": "0xE112": 
+"Full Saturation & No Hunger": "0xE113": 
+"Half Saturation & Full Hunger": "0xE115": 
+"Half Saturation & Half Hunger": "0xE114": 
+"Half Saturation & No Hunger": "0xE116": 
+"Harmful Food": "0xE117": 
+
+// Hunger Points Only (New)
+"Full Hunger": "0xF100": 
+"Half Hunger": "0xF101": 
+"Full Saturation & Full Hunger": "0xF102": 
+"Full Saturation & Half Hunger": "0xF103": 
+"Full Saturation & No Hunger": "0xF104": 
+"Half Saturation & Full Hunger": "0xF105": 
+"Half Saturation & Half Hunger": "0xE106": 
+"Half Saturation & No Hunger": "0xF107": 
+"Harmful Food": "0xF112": 
+
+// Detailed Item Names
+"Hunger Points Legacy (Unused)": "0xE100": 
+"Hunger Points New": "0xF110": 
+"Saturation Points": "0xF111": 
+"Consuming Time": "0xF10A": 
+"Armor Points": "0xF101": 
+
+"Attack Damage": "0xF109": 
+"Sharpness Damage": "0xF10F": 
+"Maximum Durability": "0xF10B": 
+"Furnace": "0xF192": 
+
+"Health Points": "0xF108": 
+"Hostile": "0xF10C": 
+"Passive": "0xF10D": 
+"Neutral": "0xF10E": 
+"Boss": "0xF11C": 
+
+"Healing": "0xF180": 
+"Harming": "0xF181": 
+"Poison": "0xF182": 
+"Wither: "0xF183": 
+"Jump Boost": "0xF184": 
+"Speed": "0xF185": 
+"Slowness": "0xF186": 
+"Weakness": "0xF187": 
+"Resistance": "0xF188": 
+"Wind Charged": "0xF189": 
+"Weaving": "0xF18A": 
+"Oozing": "0xF18B": 
+"Infested": "0xF18C": 
+
+"Percentage Sign (White)": "0xF103": 
+"Percentage Sign (Blue)": "0xF113": 
+Check: "0xF114" 
+Cross: "0xF115" 
+
+"Helmet": "0xE160": 
+"Chestplate": "0xE161": 
+"Leggings": "0xE162": 
+"Boots": "0xE163": 
+"Pickaxe": "0xE164": 
+"Shovel": "0xE165": 
+"Axe": "0xE166": 
+"Hoe": "0xE167": 
+"Sword": "0xE168": 
+"Bow": "0xE169": 
+"Crossbow": "0xE16A": 
+"Trident": "0xE16B": 
+"Fishing Rod": "0xE16C": 
+"All": "0xE16D": 
+"Curse": "0xE16E": 
+"Mace": "0xF16F": 
+"Shield": "0xF17E": 
+"Shears": "0xF17F": 
+
+"Light Level 1": "0xF150": 
+"Light Level 2": "0xF151": 
+"Light Level 3": "0xF152": 
+"Light Level 4": "0xF153": 
+"Light Level 5": "0xF154": 
+"Light Level 6": "0xF155": 
+"Light Level 7": "0xF156": 
+"Light Level 8": "0xF157": 
+"Light Level 9": "0xF158": 
+"Light Level 10": "0xF159": 
+"Light Level 11": "0xF15A": 
+"Light Level 12": "0xF15B": 
+"Light Level 13": "0xF15C": 
+"Light Level 14": "0xF15D": 
+"Light Level 15": "0xF15E": 
+
+"Small Ball": "0xE170": 
+"Large Ball": "0xE171": 
+"Star-shaped": "0xE172": 
+"Creeper-shaped": "0xE173":  
+"Burst": "0xE174": 
+"Twinkle": "0xE175":  
+"Trail": "0xE176": 
+"Empty (for colour)": "0xE177": 
+
+"Pinpoint": "0xF147": 
+"Vanilla": "0xF149": 
+"Minecraft Earth": "0xF14A": 
+"Warning": "0xF14B": 
+"Twitter": "0xF14C": 
+"Monochrome": "0xF14D": 
+"MCPEDL": "0xF14F":  
+
+"Border": "0xE120": 
+"Bricks": "0xE140": 
+"Circle": "0xE121": 
+"Creeper": "0xE141" 
+"Cross": "0xE122":  (Saltire)
+"Curly Border": "0xE143":  (Bordure Indented)
+"Diagonal Left": "0xE124":  (Per Bend Sinister)
+"Diagonal Right": "0xE126":  (Per Bend)
+"Diagonal Up Left": "0xE123":  (Per Bend Inverted
+"Diagonal Up Right": "0xE124":  (Per Bend Sinister Inverted)
+"Flower": "0xE144": 
+"Gradient": "0xE127": 
+"Base Gradient (up)": "0xE128": 
+"Half Horizontal": "0xE129":  (Per Fess)
+"Half Horizontal Bottom": "0xE12A":  (Per Fess Inverted)
+"Half Vertical": "0xE12B":  (Per Pale)
+"Half Vertical Right": "0xE12C":  (Per Pale Inverted)
+"Mojang": "0xE145": 
+"Piglin": "0xE146": 
+"Rhombus": "0xE12D":  (Lozenge)
+"Skull": "0xE142": 
+"Small Stripes": "0xE12E":  (Paly)
+"Square Bottom Left": "0xE12F":  (Base Dexter Canton)
+"Square Bottom Right": "0xE130":  (Base Sinister Canton)
+"Square Top Left": "0xE131":  (Chief Dexter Canton)
+"Square Top Right": "0xE132":  (Chief Sinister Canton)
+"Straight Cross": "0xE133": 
+"Stripe Bottom": "0xE134":  (Base Fess)
+"Stripe Center": "0xE135":  (Pale)
+"Stripe Downleft": "0xE136":  (Bend Sinister)
+"Stripe Downright": "0xE137":  (Bend)
+"Stripe Left": "0xE138":  (Pale Dexter)
+"Stripe Middle": "0xE139":  (Fess)
+"Stripe Right": "0xE13A":  (Pale Sinister)
+"Stripe Top": "0xE13B":  (Chief Fess)
+"Triangle Bottom": "0xE13C":  (Chevron)
+"Triangle Top": "0xE13D":  (Inverted Chevron)
+"Triangles Bottom": "0xE13E":  (Base Indented)
+"Triangles Top": "0xE13F":  (Chief Indented)
+"Globe": "0xE14E": 
+"Flow": "0xF190": 
+"Guster": "0xF191": 
+
+change dot to comma:
+bg_bg
+cz_cz
+da_dk
+de_de
+el_gr
+es_es
+fr_ca
+fr_fr
+hu_hu
+it_it
+nb_no
+nl_nl
+pt_br
+ru_ru
+sk_sk
+sw_se
+tr_tr
+uk_ua
+
+seconds:
+bg_bg: s to с
+cz_cz: s to _s
+da_dk: s to sek
+de_de: s to S (capital)
+el_gr: s to δ
+fr_fr: s to _s (space in front)
+hu_hu: s to _mp
+id_id: s to dtk
+jp_jp: s to _秒
+ko_kr: s to 초
+nb_no: s to _s
+nl_nl: s to _s
+pl_pl: s to s. (with dot)
+pt_br: s to seg
+pt_pt: s to seg
+ru_ru: s to _с
+sw_se: s to _s
+uk_ua: s to _c
+zh_cn: s to _秒
+zh_tw: s to _秒

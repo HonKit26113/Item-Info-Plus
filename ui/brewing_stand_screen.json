@@ -1,0 +1,849 @@
+/********************************************************
++*   (c) Mojang. All rights reserved                       *
++*   (c) Microsoft. All rights reserved.                   *
++*********************************************************/
+
+{
+  "namespace": "brewing_stand",
+  //-----------------------------------------------------------
+  // Images
+  //-----------------------------------------------------------
+
+  "brewing_pipes": {
+    "type": "image",
+    "layer": 2,
+    "texture": "textures/ui/brewing_pipes",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 3 ],
+    "size": [ 30, 26 ]
+  },
+
+  "brewing_fuel_pipes": {
+    "type": "image",
+    "layer": 2,
+    "texture": "textures/ui/brewing_fuel_pipes",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ -47, -5 ],
+    "size": [ 30, 22 ]
+  },
+
+  "bottle_empty_image": {
+    "type": "image",
+    "texture": "textures/ui/bottle_empty",
+    "layer": 2,
+    "offset": [ 1, -1 ],
+    "size": [ 16, 16 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_name": "#empty_bottle_image_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      }
+    ]
+  },
+
+  "fuel_empty_image": {
+    "type": "image",
+    "texture": "textures/ui/brewing_fuel_empty",
+    "layer": 2,
+    "offset": [ 0, -1 ],
+    "size": [ 16, 16 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "bindings": [
+      {
+        "binding_name": "#empty_fuel_image_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "$item_collection_name"
+      }
+    ]
+  },
+
+  "bubbles_empty_image": {
+    "type": "image",
+    "texture": "textures/ui/bubbles_empty",
+    "layer": 2,
+    "offset": [ -23, -14 ],
+    "size": [ 12, 30 ],
+    "anchor_from": "center",
+    "anchor_to": "center"
+  },
+
+  "bubbles_full_image": {
+    "type": "image",
+    "texture": "textures/ui/bubbles_full",
+    "layer": 3,
+    "offset": [ -23, -14 ],
+    "size": [ 12, 30 ],
+    "clip_direction": "down",
+    "bindings": [
+      {
+        "binding_name": "#brewing_bubbles_ratio",
+        "binding_name_override": "#clip_ratio",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "brewing_arrow_empty_image": {
+    "type": "image",
+    "layer": 1,
+    "texture": "textures/ui/brewing_arrow_empty",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 16, -14 ],
+    "size": [ 9, 28 ]
+  },
+
+  "brewing_arrow_full_image": {
+    "type": "image",
+    "layer": 3,
+    "texture": "textures/ui/brewing_arrow_full",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 16, -14 ],
+    "size": [ 9, 28 ],
+    "clip_direction": "up",
+    "bindings": [
+      {
+        "binding_name": "#brewing_arrow_ratio",
+        "binding_name_override": "#clip_ratio",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "brewing_fuel_bar_empty_image": {
+    "type": "image",
+    "layer": 1,
+    "texture": "textures/ui/brewing_fuel_bar_empty",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ -23, 3 ],
+    "size": [ 24, 6 ]
+  },
+
+  "brewing_fuel_bar_full_image": {
+    "type": "image",
+    "layer": 3,
+    "texture": "textures/ui/brewing_fuel_bar_full",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ -23, 3 ],
+    "size": [ 22, 4 ],
+    "clip_direction": "left",
+    "bindings": [
+      {
+        "binding_name": "#brewing_fuel_ratio",
+        "binding_name_override": "#clip_ratio",
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  /*"new_image": {
+    "type": "image",
+    "layer": 5,
+    "texture": "textures/ui/enchantment_info_plus",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ -23, 3 ],
+    "size": [ 64, 64 ]
+  },*/
+
+  "question_mark_image": {
+    "type": "image",
+    "layer": 1,
+    "texture": "textures/ui/recipe_book_icon",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 0 ],
+    "size": [ 16, 16 ]
+  },
+
+  "nether_wart_image": {
+    "type": "image",
+    "layer": 1,
+    "texture": "textures/items/nether_wart",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 0 ],
+    "size": [ 16, 16 ]
+  },
+
+  //-----------------------------------------------------------
+  // Screen
+  //-----------------------------------------------------------
+
+  /*"left_side_image_panel": {
+    "type": "image",
+    "size": [ "20%", "100%" ],
+    "offset": [ -10, 0 ],
+    "anchor_from": "center_left",
+    "anchor_to": "center_left",
+    "layer": 1
+  },*/
+
+  /*"new_image_panel": {
+    "type": "panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      { "new_image@brewing_stand.new_image": { } }
+    ]
+  },*/
+
+  "brewing_label": {
+    "type": "label",
+    "offset": [ 0, -3 ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "text": "$container_title",
+    "color": "$title_text_color",
+    "layer": 2
+  },
+
+  "brewingstand_output_item@common.container_item": {
+    "size": [ 18, 18 ],
+    "$cell_overlay_ref": "brewing_stand.bottle_empty_image",
+    "$item_collection_name": "brewing_result_items"
+  },
+
+  "brewing_output_slots": {
+    "type": "grid",
+    "size": [ 54, 18 ],
+    "offset": [ 0, 23 ],
+    "grid_dimensions": [ 3, 1 ],
+    "collection_name": "brewing_result_items",
+    "controls": [
+      {
+        "left_offset": {
+          "type": "panel",
+          "grid_position": [ 0, 0 ],
+          "controls": [
+            {
+              "output_grid_item1@brewing_stand.brewingstand_output_item": {
+                "offset": [ -5, -7 ],
+
+                "$focus_override_left_binding_type": "none",
+                "$focus_override_left": "brewing_fuel"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "output_grid_item2@brewing_stand.brewingstand_output_item": {
+          "grid_position": [ 1, 0 ]
+        }
+      },
+      {
+        "right_offset": {
+          "type": "panel",
+          "grid_position": [ 2, 0 ],
+          "controls": [
+            {
+              "output_grid_item3@brewing_stand.brewingstand_output_item": {
+                "offset": [ 5, -7 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "brewing_input_slot": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "offset": [ 0, -18 ],
+    "controls": [
+      {
+        "input_grid_item@common.container_item": {
+          "$item_collection_name": "brewing_input_item",
+
+          "$focus_override_left_binding_type": "none",
+          "$focus_override_left": "brewing_fuel"
+        }
+      }
+    ]
+  },
+
+  "brewing_fuel_slot": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "offset": [ -70, -18 ],
+    "controls": [
+      {
+        "fuel_grid_item@common.container_item": {
+          "$cell_overlay_ref": "brewing_stand.fuel_empty_image",
+          "$item_collection_name": "brewing_fuel_item",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "brewing_fuel",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "brewing_input_item0"
+        }
+      }
+    ]
+  },
+
+  "brewing_panel_top_half": {
+    "type": "panel",
+    "size": [ "100%", "50% - 12px" ],
+    "offset": [ 0, 7 ],
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle",
+    "controls": [
+      { "brewing_label@brewing_label": { } },
+      { "brewing_stand_pictogram@brewing_stand_pictogram": { } }
+    ]
+  },
+
+  "brewing_stand_pictogram": {
+    "type": "panel",
+    "size": [ "40%", "80%" ],
+    "controls": [
+      { "brewing_input_slot@brewing_stand.brewing_input_slot": { } },
+      { "brewing_output_slots@brewing_stand.brewing_output_slots": { } },
+      { "brewing_fuel_slot@brewing_stand.brewing_fuel_slot": { } },
+      { "brewing_arrow_empty_image@brewing_stand.brewing_arrow_empty_image": { } },
+      { "brewing_arrow_full_image@brewing_stand.brewing_arrow_full_image": { } },
+      { "brewing_fuel_bar_empty_image@brewing_stand.brewing_fuel_bar_empty_image": { } },
+      { "brewing_fuel_bar_full_image@brewing_stand.brewing_fuel_bar_full_image": { } },
+      { "bubbles_empty_image@brewing_stand.bubbles_empty_image": { } },
+      { "bubbles_full_image@brewing_stand.bubbles_full_image": { } },
+      { "brewing_fuel_pipes@brewing_stand.brewing_fuel_pipes": { } },
+      { "brewing_pipes@brewing_stand.brewing_pipes": { } }
+    ]
+  },
+
+  "new_root_panel": {
+    "type": "input_panel",
+    "size": [ 400, 166 ],
+    "layer": 1,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_secondary_select",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.return",
+        "to_button_id": "button.return",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.arrow_up",
+        "to_button_id": "button.arrow_key",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.arrow_down",
+        "to_button_id": "button.arrow_key",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.arrow_left",
+        "to_button_id": "button.arrow_key",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.arrow_right",
+        "to_button_id": "button.arrow_key",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.controller_back",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed",
+        "ignored": "(not $is_ps4)"
+      },
+      {
+        "from_button_id": "button.controller_select",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.controller_secondary_select",
+        "to_button_id": "button.container_reset_held",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.turn_up",
+        "to_button_id": "button.scroll_up",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.turn_down",
+        "to_button_id": "button.scroll_down",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.turn_left",
+        "to_button_id": "button.scroll_left",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.turn_right",
+        "to_button_id": "button.scroll_right",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.inventory_left",
+        "to_button_id": "button.inventory_left",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.inventory_right",
+        "to_button_id": "button.inventory_right",
+        "mapping_type": "global"
+      }
+    ]
+  },
+
+  "info_panel_grid_scrolling": {
+    "type": "grid",
+    "size": [ "70%-25px", "100%-15px" ],
+    "offset": [ 35, 0 ],
+    "grid_dimensions": [ 3, 1 ],
+    "controls": [
+      {
+              "scrolling_panel@common.scrolling_panel": {
+                "layer": 14,
+                "size": [ "80%", "100%-15px" ],
+                "$allow_scrolling_even_when_content_fits": true,
+                "$scrolling_content": "brewing_stand.info_panel_grid",
+                "$show_background": false,
+                "$scroll_size": [ "5px", "100% - 15px" ],
+                "$scroll_bar_left_padding_size": [ 5, 0 ],
+                "$scroll_bar_right_padding_size": [ 5, 0 ]
+              }
+            }
+      /*{
+        "control": {
+          "type": "stack_panel",
+          "layer": 13,
+          "size": [ "100%", "100%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "scrolling_panel@common.scrolling_panel": {
+                "layer": 14,
+                "size": [ "80%", "fill" ],
+                "$allow_scrolling_even_when_content_fits": true,
+                "$scrolling_content": "brewing_stand.info_panel_grid",
+                "$show_background": true,
+                "$scroll_size": [ "5px", "100% - 4px" ],
+                "$scroll_bar_left_padding_size": [ 5, 0 ],
+                "$scroll_bar_right_padding_size": [ 5, 0 ]
+              }
+            }
+          ]
+        }
+      }*/
+    ]
+  },
+
+  
+
+  "info_panel_grid": {
+    "type": "stack_panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ 18, 18 ],
+    "offset": [ 0, 5 ],
+    "controls": [
+      {
+        "row_1": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, 0 ],
+          "controls": [
+            { "info_item_slot1_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot1_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot1_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      { "section_divider1@how_to_play_common.section_divider": {} },
+      {
+        "row_2": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -20 ],
+          "controls": [
+            { "info_item_slot2_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot2_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot2_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      { "section_divider2@how_to_play_common.section_divider": {} },
+      {
+        "row_3": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -40 ],
+          "controls": [
+            { "info_item_slot3_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot3_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot3_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_4": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -60 ],
+          "controls": [
+            { "info_item_slot4_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot4_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot4_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_5": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -80 ],
+          "controls": [
+            { "info_item_slot4_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot4_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot4_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_6": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -1000 ],
+          "controls": [
+            { "info_item_slot6_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot6_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot6_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_7": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -120 ],
+          "controls": [
+            { "info_item_slot7_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot7_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot7_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_8": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -140 ],
+          "controls": [
+            { "info_item_slot8_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot8_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot8_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_9": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -160 ],
+          "controls": [
+            { "info_item_slot9_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot9_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot9_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row_10": {
+          "type": "panel",
+          "size": [ 80, 20 ],
+          "offset": [ 0, -180 ],
+          "controls": [
+            { "info_item_slot10_1@nether_wart_image": {
+                "offset": [ 0, 0 ]
+              }
+            },
+            { "info_item_slot10_2@nether_wart_image": {
+                "offset": [ 20, 0 ]
+              }
+            },
+            { "info_item_slot10_3@nether_wart_image": {
+                "offset": [ 40, 0 ]
+              }
+            }
+          ]
+        }
+      }
+      /*{
+        "info_item_slot2@item_info_renderer": {
+          "type": "panel",
+          "offset": [ 20, 0 ],
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_property_name": "((#texture - '28246016')",
+              "target_property_name": "#item_id_aux"
+            }
+          ]
+        }
+      },*/
+    ],
+    "bindings": [
+      { 
+        "binding_name": "#hud_visible",
+        "binding_name_override": "#visible",
+        "binding_type":"global"
+      }
+    ]
+  },
+
+  "brewing_stand_panel": {
+    "type": "panel",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      {
+        "new_root_panel@brewing_stand.new_root_panel": {
+          "layer": 1,
+          "controls": [
+            { "common_panel@common.common_panel": {} },
+            { "question_mark_image@question_mark_image": {
+                "offset": [ 5, 3 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            },
+            {
+              "left_offset": {
+              "type": "panel",
+              "offset": [ -120, 0 ],
+              "controls": [
+                  {
+                    "furnace_screen_inventory": {
+                    "type": "panel",
+                    "layer": 14,
+                    "controls": [
+                       // { "left_side_image_panel@brewing_stand.left_side_image_panel": {} },
+                        { "info_panel_grid_scrolling@brewing_stand.info_panel_grid_scrolling": {} }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "right_offset": {
+                "type": "panel",
+                "offset": [ 90, 0 ],
+                "controls": [
+                  {
+                    "furnace_screen_inventory": {
+                    "type": "panel",
+                    "layer": 5,
+                    "controls": [
+                        { "brewing_panel_top_half@brewing_stand.brewing_panel_top_half": {} },
+                        { 
+                          "inv_panel": {
+                          "type": "panel",
+                          "offset": [ 0, 0 ],
+                          "controls": [
+                              {
+                                "furnace_screen_inventory": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    { "inventory_panel_bottom_half@common.inventory_panel_bottom_half": {} },
+                                    {
+                                      "inventory_label@common.section_heading_label": {
+                                        "anchor_from": "middle_left",
+                                        "anchor_to": "middle_left",
+                                        "offset": [ 0, -2 ],
+                                        "layer": 2,
+                                        "text": "container.inventory"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        { "hotbar_grid@common.hotbar_grid_template": {} },
+                        { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      
+      { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+      { "gamepad_cursor@common.gamepad_cursor_button": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 15 } },
+      { "bundle_touch_tooltip@gameplay.bundle_touch_tooltip": {} }
+    ]
+  },
+
+  "brewing_stand_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": true,
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "brewing_stand.brewing_stand_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "brewing_stand_pocket.brewing_stand_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      }
+    ]
+  }
+}/*
+unused code below here
+
+
+
+  "info_item_slot": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "offset": [ -70, -18 ],
+    "controls": [
+      {
+        "fuel_grid_item@common.container_item": {
+          "$cell_overlay_ref": "brewing_stand.fuel_empty_image",
+          "$item_collection_name": "brewing_fuel_item",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "brewing_fuel",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "brewing_input_item0"
+        }
+      }
+    ]
+  },
+  "item_info_renderer": {
+    "type": "custom",
+    "renderer": "inventory_item_renderer",
+    "size": [ 16, 16]
+  },

@@ -1,0 +1,210 @@
+## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
+
+hungerpoints.packname=Item Info+
+hungerpoints.version=Version 1.16.2
+hungerpoints.author=Pack made by HonKit26113
+hungerpoints.releasedate=Released May 30, 2025
+
+hungerpoints.licence.space= 	#
+
+hungerpoints.section_header1=Pack Information
+
+hungerpoints.licence.legend_header=Legend
+hungerpoints.licence.legend_text1=This only applies when the §6Detailed Item Names§r mode is active.
+hungerpoints.licence.legend_text1_1=This only applies when the §6Hunger & Saturation Only§r mode is active.
+hungerpoints.licence.legend_text2=§lShown on Food Items
+hungerpoints.licence.legend_text3= Hunger Points replenished after consuming the item.
+hungerpoints.licence.legend_text3_1= Saturation Points replenished after consuming the item.
+hungerpoints.licence.legend_text4= Time needed to consume the item.
+hungerpoints.licence.legend_text4_1= This icon only appears if the food is harmful to eat.
+hungerpoints.licence.legend_text5=§lShown on Armor
+hungerpoints.licence.legend_text6= Armor Points a piece of Armor gives after putting it on.
+hungerpoints.licence.legend_text6_1= Amount of damage absorbed.
+hungerpoints.licence.legend_text7=§lShown on Tools, Weapons and Gear
+hungerpoints.licence.legend_text8= Amount of Attack Damage the tool deals when unenchanted.
+hungerpoints.licence.legend_text9= Additional Attack Damage for the Sharpness Enchantment.
+hungerpoints.licence.legend_text10= Maximum Durability of the item. Value does not decrease after use.
+hungerpoints.licence.legend_text11=§lShown on Spawn Eggs
+hungerpoints.licence.legend_text12= Amount of Health Points the mob has.
+hungerpoints.licence.legend_text13= This means the mob is Hostile.
+hungerpoints.licence.legend_text14= This means the mob is Neutral.
+hungerpoints.licence.legend_text15= This means the mob is Passive.
+hungerpoints.licence.legend_text15_1= This means the mob is a Boss.
+hungerpoints.licence.legend_text15_2=§lShown on Furnace Fuel Items
+hungerpoints.licence.legend_text15_3= Shows how many items that can be smelted.
+hungerpoints.licence.legend_text16=§lShown on Banner Items
+hungerpoints.licence.legend_text17= Shows icons for the respective patterns.
+hungerpoints.licence.legend_text17_1=§lShown on Blocks & Items that Emit Light
+hungerpoints.licence.legend_text17_2= Shows icons depending on the light level emitted.
+hungerpoints.licence.legend_text17_3=§lShown on Music Discs
+hungerpoints.licence.legend_text17_4= Duration of the song. The time does not count down when played.
+hungerpoints.licence.legend_text17_5=§lShown on Fireworks
+hungerpoints.licence.legend_text17_6= Shows icons for the respective patterns.
+hungerpoints.licence.legend_text17_7=§lShown on Potions & Tipped Arrows
+hungerpoints.licence.legend_text17_8= Shows icons depending on the potion effect. Some do not have icons as the effect is self-explanatory.
+hungerpoints.licence.legend_text17_9= The entity releases a burst of wind upon death.
+hungerpoints.licence.legend_text17_10= The entity spawns 2-3 cobwebs upon death.
+hungerpoints.licence.legend_text17_11= The entity spawns 2 slimes upon death.
+hungerpoints.licence.legend_text17_12= The entity has a 10% chance to spawn 1-3 silverfish when hurt.
+hungerpoints.licence.legend_text18=§lShown on Enchantments
+hungerpoints.licence.legend_text19=What gear can receive the enchantment?
+hungerpoints.licence.legend_text20= All Gear
+hungerpoints.licence.legend_text21= Helmets
+hungerpoints.licence.legend_text22= Chestplates
+hungerpoints.licence.legend_text23= Leggings
+hungerpoints.licence.legend_text24= Boots
+hungerpoints.licence.legend_text25= Swords
+hungerpoints.licence.legend_text26= Pickaxes
+hungerpoints.licence.legend_text27= Shovels
+hungerpoints.licence.legend_text28= Axes
+hungerpoints.licence.legend_text29= Hoes
+hungerpoints.licence.legend_text29_1= Shears
+hungerpoints.licence.legend_text30= Bows
+hungerpoints.licence.legend_text31= Crossbows
+hungerpoints.licence.legend_text32= Tridents
+hungerpoints.licence.legend_text32_1= Maces
+hungerpoints.licence.legend_text33= Fishing Rods
+hungerpoints.licence.legend_text34= Curse Enchantments
+
+
+
+hungerpoints.dlc_header=Downloadable Content (DLCs)
+hungerpoints.dlc_text1=There is currently 1 DLC available. These are additional packs that work together with Item Info+ to further enhance your gameplay experience.
+hungerpoints.dlc_text2= §eDownload the DLC now on §a MCPEDL§r or §6honkit26113.com§r!
+hungerpoints.dlc_text3=§lDLC: §eRedstone Info+§r
+hungerpoints.dlc_text4=Show more information on redstone items! New textures and icons have been added to make building with redstone easier.
+hungerpoints.dlc_text5=§lDLC: §eEnchantment Info+§r
+hungerpoints.dlc_text6=Show more information on enchantments! Find out what gear the enchantment can be applied to, and the function of the enchantment, all displayed using simple and colorful icons!
+
+
+
+hungerpoints.licence.addon_header=Add-on Cross-compatibility
+hungerpoints.licence.addon_text1=Item Info+ also supports the §6Beyond The Underground§r add-on. In the World Settings of the world you wish to activate the add-on in, put the resource packs in the following order.
+hungerpoints.licence.addon_text2=Stats of items should now appear on the names of custom items!
+hungerpoints.licence.addon_text3= §6Beyond The Underground§r is an add-on that adds many new cave types for you to explore! Available now on §a MCPEDL§r.
+hungerpoints.licence.addon_text4= Note to players using §6The Ty-el's Vietnamese Language Pack§r: Item Info+ must be placed §6on top of§r the language pack.
+
+
+
+hungerpoints.licence.changelog_header=Changelog
+## New Languages Supported!
+hungerpoints.licence.text31=§lNew Icon Style: Monochrome Icons!
+hungerpoints.licence.text32= 
+hungerpoints.licence.text33= 
+hungerpoints.licence.text34=
+hungerpoints.licence.text35=§lChanges and Additions:
+hungerpoints.licence.text36= §l§eDrop 2 2025 Support:§r
+hungerpoints.licence.text37= Added HP and hostility icons for the Happy Ghast.
+hungerpoints.licence.text38= Added a duration icon for the Tears music disc.
+hungerpoints.licence.text39= 
+hungerpoints.licence.text40= 
+hungerpoints.licence.text41= 
+hungerpoints.licence.text42=
+hungerpoints.licence.text42_1= 
+hungerpoints.licence.text42_2= 
+hungerpoints.licence.text42_3= 
+hungerpoints.licence.text42_31= 
+hungerpoints.licence.text42_32= 
+hungerpoints.licence.text42_33= 
+hungerpoints.licence.text42_34= 
+hungerpoints.licence.text42_35= 
+hungerpoints.licence.text42_36= 
+hungerpoints.licence.text42_37= 
+
+hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are only available in English in the Pre-Release:
+hungerpoints.licence.text43=
+
+hungerpoints.licence.text44=§lBug Fixes:
+hungerpoints.licence.text44_1= 
+hungerpoints.licence.text44_2= 
+hungerpoints.licence.text44_3= 
+hungerpoints.licence.text44_4= 
+hungerpoints.licence.text44_5= 
+hungerpoints.licence.text44_6=
+hungerpoints.licence.text44_7=
+hungerpoints.licence.text44_8=
+hungerpoints.licence.text44_9=
+hungerpoints.licence.text45= 	#
+
+hungerpoints.licence.text46=§lKnown Issues:
+hungerpoints.licence.text47=
+hungerpoints.licence.text47_1=
+hungerpoints.licence.text48= 	#
+
+
+
+hungerpoints.licence.credits_header=Credits
+hungerpoints.licence.text10=§lCreator:§r §eHonKit26113 ( @HonKit1103)§r
+hungerpoints.licence.text10_1=Special thanks to §eNetherNinja ( @NetherNinja)§r for this settings panel, and to §ereal_tlgm ( @tlgm2308)§r for further optimizing the code!
+hungerpoints.licence.text11=§lPack Contributions:
+hungerpoints.licence.text11_1= New Banner Pattern Icon Designs: §eChilRx ( @chilrx)§r
+hungerpoints.licence.text11_2= Vietnamese Translation: §ereal_tlgm ( @tlgm2308)§r
+hungerpoints.licence.text11_3= In-game Language Setting: §ereal_tlgm ( @tlgm2308)§r
+
+
+
+iteminfo.section_header5=Terms of Use
+iteminfo.section5_text1=You are §aallowed§r to:
+iteminfo.section5_text2= Edit the pack for §epersonal use§r.
+iteminfo.section5_text3= Use the pack in your §eprivate modpack§r that you aren't releasing publicly. You cannot use the pack in a public modpack.
+iteminfo.section5_text4= §eMake videos & media content§r with the pack.
+iteminfo.section5_text5=You are §4NOT allowed§r to:
+iteminfo.section5_text6= Distribute the pack using a new download link, or share the direct download link. Always share the link to §a MCPEDL§r or §6honkit26113.com§r
+iteminfo.section5_text7= Monetize the pack download. Doing so will result in a copyright takedown.
+
+
+
+item.apple.name=Apple 	#
+item.baked_potato.name=Baked Potato 	#
+item.beetroot.name=Beetroot 	#
+item.beetroot_soup.name=Beetroot Soup 	#
+item.bread.name=Bread 	#
+item.cake.name=Cake 	#
+item.carrot.name=Carrot 	#
+item.chorus_fruit.name=Chorus Fruit 	#
+item.cooked_beef.name=Cooked Beef 	#
+item.cooked_chicken.name=Cooked Chicken 	#
+item.cooked_fish.name=Cooked Cod 	#
+item.muttonCooked.name=Cooked Mutton 	#
+item.cooked_porkchop.name=Cooked Porkchop 	#
+item.cooked_rabbit.name=Cooked Rabbit 	#
+item.cooked_salmon.name=Cooked Salmon 	#
+item.cookie.name=Cookie 	#
+item.dried_kelp.name=Dried Kelp 	#
+item.appleEnchanted.name=Enchanted Apple 	#
+item.golden_apple.name=Golden Apple 	#
+item.golden_carrot.name=Golden Carrot 	#
+item.honey_bottle.name=Honey Bottle 	#
+item.melon.name=Melon Slice 	#
+item.mushroom_stew.name=Mushroom Stew 	#
+item.poisonous_potato.name=Poisonous Potato  	#
+item.potato.name=Potato 	#
+item.pufferfish.name=Pufferfish  	#
+item.pumpkin_pie.name=Pumpkin Pie 	#
+item.rabbit_stew.name=Rabbit Stew 	#
+item.beef.name=Raw Beef 	#
+item.chicken.name=Raw Chicken  	#
+item.fish.name=Raw Cod 	#
+item.muttonRaw.name=Raw Mutton 	#
+item.porkchop.name=Raw Porkchop 	#
+item.rabbit.name=Raw Rabbit 	#
+item.salmon.name=Raw Salmon 	#
+item.rotten_flesh.name=Rotten Flesh  	#
+item.spider_eye.name=Spider Eye  	#
+item.suspicious_stew.name=Suspicious Stew 	#
+item.sweet_berries.name=Sweet Berries 	#
+item.clownfish.name=Tropical Fish 	#
+item.glow_berries.name=Glow Berries 	#
+
+item.item:snow_berries=Winterberries 
+item.item:glowshroom=Glowshroom 
+item.honkit26113:wintershroom_item=Wintershroom 
+item.honkit26113_item:highland_berries=Highland Berries 
+item.honkit26113_item:tropical_berries=Tropical Berries 
+
+item.honkit26113:luminous_mushroom_stew=Luminous Mushroom Stew 
+item.honkit26113:slime_soup=Slime Soup 
+item.honkit26113:raw_scorpion=Raw Scorpion 
+item.honkit26113:cooked_scorpion=Cooked Scorpion 
+
+
