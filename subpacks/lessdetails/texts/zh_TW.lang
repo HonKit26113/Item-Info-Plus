@@ -1,9 +1,9 @@
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
 hungerpoints.packname=Item Info+
-hungerpoints.version=版本號 1.16.2
+hungerpoints.version=版本號 1.16.3
 hungerpoints.author=由 HonKit26113 創作
-hungerpoints.releasedate=發佈日期 2025年5月30日
+hungerpoints.releasedate=發佈日期 2026年1月31日
 
 hungerpoints.licence.space= 	#
 
@@ -61,13 +61,14 @@ hungerpoints.licence.legend_text30= 弓
 hungerpoints.licence.legend_text31= 弩
 hungerpoints.licence.legend_text32= 三叉戟
 hungerpoints.licence.legend_text32_1= 重錘
+hungerpoints.licence.legend_text32_2= 長矛
 hungerpoints.licence.legend_text33= 釣魚竿
 hungerpoints.licence.legend_text34= 詛咒附魔
 
 
 
 hungerpoints.dlc_header=追加下載內容 (DLC)
-hungerpoints.dlc_text1=目前有一個新的追加下載內容。這些下載包能與 Item Info+ 互相配合，爲您提供一個更好的遊戲體驗。
+hungerpoints.dlc_text1=目前有一個新的追加下載內容。這些内容包能與 Item Info+ 互相配合，爲您提供一個更好的遊戲體驗。
 hungerpoints.dlc_text2= §e現在就在 §a MCPEDL§r 或 §6honkit26113.com§r 下載吧!
 hungerpoints.dlc_text3=§lDLC: §eRedstone Info+§r
 hungerpoints.dlc_text4=加入新的材質、圖示，讓你在設計紅石機關時更容易、更清晰!
@@ -91,18 +92,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33= 
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§l新增内容與改變：
-hungerpoints.licence.text36= §l§e2025 夏季小更新支援：§r
-hungerpoints.licence.text37= 加入了快樂地獄幽靈的生命值和敵意圖示。
-hungerpoints.licence.text38= 增加了 Tears 唱片的播放時間圖示。
-hungerpoints.licence.text39= 
-hungerpoints.licence.text40= 
-hungerpoints.licence.text41= 
-hungerpoints.licence.text42= 
-hungerpoints.licence.text42_1= 
-hungerpoints.licence.text42_2= 
-hungerpoints.licence.text42_3= 
-hungerpoints.licence.text42_31= 
-hungerpoints.licence.text42_32= 
+hungerpoints.licence.text36= §l§e《銅器時代》支援：§r
+hungerpoints.licence.text37= 為所有銅製盔甲新增護甲值與最大耐久度圖示。
+hungerpoints.licence.text38= 為所有銅製工具新增攻擊傷害值與最大耐久度圖示。
+hungerpoints.licence.text39= 為所有銅製燈籠類型新增亮度等級圖示。
+hungerpoints.licence.text40= 為銅製火把新增亮度等級圖示。
+hungerpoints.licence.text41= 為銅製傀儡生成蛋新增生命值與敵意圖示。
+hungerpoints.licence.text42= §l§e《群騎紛爭》支援：§r
+hungerpoints.licence.text42_1= 為所有長矛新增攻擊傷害與最大耐久度圖示。
+hungerpoints.licence.text42_2= 為所有種類的鸚鵡螺盔甲新增護甲保護圖示。
+hungerpoints.licence.text42_3= 為獄髓馬鎧新增護甲保護圖示。
+hungerpoints.licence.text42_31= 新增平刺附魔支援，並為部分適用附魔更新為新長矛圖示。
+hungerpoints.licence.text42_32= 為鸚鵡螺、殭屍鸚鵡螺、乾枯生物與駱駝軀殼的生成蛋新增生命值與敵意圖示。
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -113,12 +114,12 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43= 	#
 
 hungerpoints.licence.text44=§l已修復 Bug：
-hungerpoints.licence.text44_1= 修正了重錘的耐久度和攻擊傷害值。
-hungerpoints.licence.text44_2= 移除了狼鎧甲的不準確護甲值顯示。
-hungerpoints.licence.text44_3= 
-hungerpoints.licence.text44_4=
+hungerpoints.licence.text44_1= 修正捷克語語言名稱檔案的錯誤。所有圖示現應能正確顯示於物品名稱上！
+hungerpoints.licence.text44_2= 修正皮靴、鎖鏈靴與黃金靴的防護值錯誤。
+hungerpoints.licence.text44_3= 將所有護甲與工具的耐久度值調整為基岩版的正確數值。
+hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
-hungerpoints.licence.text44_6=
+hungerpoints.licence.text44_6= 
 hungerpoints.licence.text44_7=
 hungerpoints.licence.text44_8=
 hungerpoints.licence.text44_9=

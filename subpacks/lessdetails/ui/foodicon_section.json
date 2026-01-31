@@ -575,7 +575,7 @@
         "hunger_points_label38@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text38"
         }
-      },/*
+      },
       {
         "hunger_points_label39@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text39"
@@ -585,17 +585,17 @@
         "hunger_points_label40@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text40"
         }
-      },/*
+      },
       {
         "hunger_points_label41@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text41"
         }
-      }, /*
+      }, 
       {
         "hunger_points_label42@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text42"
         }
-      }, /*
+      }, 
       {
         "hunger_points_label42_1@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text42_1"
@@ -620,7 +620,7 @@
           "hunger_points_label42_32@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.text42_32"
           }
-        }, 
+        }, /*
         {
           "hunger_points_label42_33@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.text42_33"
@@ -656,7 +656,7 @@
             "$text": "hungerpoints.licence.text42_5"
           }
         },*/ 
-      /*{
+      {
         "hunger_points_space17_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
         }
@@ -670,7 +670,7 @@
         "hunger_points_label44_1@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_1"
         }
-      },/*
+      },
       {
         "hunger_points_label44_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_2"
@@ -680,7 +680,7 @@
         "hunger_points_label44_3@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_3"
         }
-      },
+      },/*
       {
         "hunger_points_label44_4@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_4"

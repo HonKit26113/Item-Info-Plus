@@ -2,12 +2,12 @@
     "format_version": 2,
     "header": {
         "description": "Display information of blocks & items using icons!\nCreator: HonKit26113.",
-        "name": "Item Info+ v1.16.1T1",
+        "name": "Item Info+ v1.16.3T1",
         "uuid": "1f487343-bb10-455a-9c37-3177c125a1d5",
         "version": [
             1,
             9,
-            4
+            5
         ],
         "min_engine_version": [
             1,
@@ -22,7 +22,7 @@
             "version": [
                 1,
                 9,
-                4
+                5
             ]
         }
     ],

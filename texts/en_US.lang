@@ -1,9 +1,13 @@
+﻿## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
+
+
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
+
 hungerpoints.packname=Item Info+
-hungerpoints.version=Version 1.16.2
+hungerpoints.version=Version 1.16.3
 hungerpoints.author=Pack made by HonKit26113
-hungerpoints.releasedate=Released May 30, 2025
+hungerpoints.releasedate=Released January 31, 2026
 
 hungerpoints.licence.space= 	#
 
@@ -24,6 +28,8 @@ hungerpoints.licence.legend_text7=§lShown on Tools, Weapons and Gear
 hungerpoints.licence.legend_text8= Amount of Attack Damage the tool deals when unenchanted.
 hungerpoints.licence.legend_text9= Additional Attack Damage from Sharpness. Sharpness I-V adds 1, 2, 3, 5, 6 respectively.
 hungerpoints.licence.legend_text10= Maximum Durability of the item. Value does not decrease after use.
+hungerpoints.licence.legend_text10_1= Spears only: Attack cooldown.
+hungerpoints.licence.legend_text10_2= Spears only: Charge attack damage multiplier.
 hungerpoints.licence.legend_text11=§lShown on Spawn Eggs
 hungerpoints.licence.legend_text12= Amount of Health Points the mob has.
 hungerpoints.licence.legend_text13= This means the mob is Hostile.
@@ -63,6 +69,7 @@ hungerpoints.licence.legend_text30= Bows
 hungerpoints.licence.legend_text31= Crossbows
 hungerpoints.licence.legend_text32= Tridents
 hungerpoints.licence.legend_text32_1= Maces
+hungerpoints.licence.legend_text32_2= Spears
 hungerpoints.licence.legend_text33= Fishing Rods
 hungerpoints.licence.legend_text34= Curse Enchantments
 
@@ -93,18 +100,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33= 
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§lNew Additions and Changes:
-hungerpoints.licence.text36= §l§eDrop 2 2025 Support:§r
-hungerpoints.licence.text37= Added HP and hostility icons for the Happy Ghast.
-hungerpoints.licence.text38= Added a duration icon for the Tears music disc.
-hungerpoints.licence.text39=
-hungerpoints.licence.text40=
-hungerpoints.licence.text41= 
-hungerpoints.licence.text42=
-hungerpoints.licence.text42_1= 
-hungerpoints.licence.text42_2= 
-hungerpoints.licence.text42_3= 
-hungerpoints.licence.text42_31= 
-hungerpoints.licence.text42_32= 
+hungerpoints.licence.text36= §l§eCopper Age Support:§r
+hungerpoints.licence.text37= Added armor protection and max durability icons for all Copper Armor.
+hungerpoints.licence.text38= Added attack damage and max durability icons for all Copper Tools.
+hungerpoints.licence.text39= Added light level icons for all types of Copper Lantern.
+hungerpoints.licence.text40= Added a light level icon for the Copper Torch. 
+hungerpoints.licence.text41= Added HP and hostility icons for the Copper Golem spawn egg.
+hungerpoints.licence.text42= §l§eMounts of Mayhem Support:§r
+hungerpoints.licence.text42_1= Added attack damage and max durability icons for all Spears.
+hungerpoints.licence.text42_2= Added armor protection icons for all types of Nautilus Armor.
+hungerpoints.licence.text42_3= Added an armor protection icon for Netherite Horse Armor.
+hungerpoints.licence.text42_31= Added support for the Lunge enchantment and updated some applicable enchantments with a new spear icon.
+hungerpoints.licence.text42_32= Added HP and hostility icons for the Nautilus, Zombie Nautilus, Parched, and Camel Husk spawn eggs.
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -115,9 +122,9 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43=
 
 hungerpoints.licence.text44=§lBug Fixes:
-hungerpoints.licence.text44_1=
-hungerpoints.licence.text44_2= 
-hungerpoints.licence.text44_3= 
+hungerpoints.licence.text44_1= Fixed incorrect language name file for Czech (Czechia). All icons should now correctly display on item names!
+hungerpoints.licence.text44_2= Fixed incorrect protection values of Leather, Chain and Golden Boots.
+hungerpoints.licence.text44_3= Changed durability values of all armor and tools to correct values for Bedrock Edition.
 hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
 hungerpoints.licence.text44_6= 
@@ -150,8 +157,7 @@ iteminfo.section5_text3= Use the pack in your §eprivate modpack§r that you 
 iteminfo.section5_text4= §eMake videos & media content§r with the pack.
 iteminfo.section5_text5=You are §4NOT allowed§r to:
 iteminfo.section5_text6= Distribute the pack using a new download link, or share the direct download link. Always share the link to §a MCPEDL§r or §6honkit26113.com§r
-iteminfo.section5_text7= Monetize the pack download. Doing so will result in a copyright takedown.
-
+iteminfo.section5_text7= Monetize the pack download. Doing so could result in a copyright takedown.
 
 
 ## Food Items
@@ -506,6 +512,15 @@ tile.waxed_exposed_copper_bulb.name=Waxed Exposed Copper Bulb 12
 tile.waxed_oxidized_copper_bulb.name=Waxed Oxidized Copper Bulb 8
 tile.waxed_weathered_copper_bulb.name=Waxed Weathered Copper Bulb 4
 tile.firefly_bush.name=Firefly Bush 2
+tile.copper_lantern.name=Copper Lantern 15
+tile.exposed_copper_lantern.name=Exposed Copper Lantern 15
+tile.weathered_copper_lantern.name=Weathered Copper Lantern 15
+tile.oxidized_copper_lantern.name=Oxidized Copper Lantern 15
+tile.waxed_copper_lantern.name=Waxed Copper Lantern 15
+tile.waxed_exposed_copper_lantern.name=Waxed Exposed Copper Lantern 15
+tile.waxed_weathered_copper_lantern.name=Waxed Weathered Copper Lantern 15
+tile.waxed_oxidized_copper_lantern.name=Waxed Oxidized Copper Lantern 15
+tile.copper_torch.name=Copper Torch 14
 
 
 
@@ -607,65 +622,77 @@ item.record_creator.desc=Lena Raine - Creator 2:56
 item.record_creator_music_box.desc=Lena Raine - Creator (Music Box) 1:13
 item.record_precipice.desc=Aaron Cherof - Precipice 4:59
 item.record_tears.desc=Amos Roddy - Tears 2:55
+item.record_lava_chicken.desc=Hyper Potions - Lava Chicken  2:15
 
 
 
-## Armor and Tools
+## Animal Armor
 item.wolf_armor.name=Wolf Armor 100
-item.horsearmordiamond.name=Diamond Horse Armor 5.5
-item.horsearmorgold.name=Gold Horse Armor 3.5
-item.horsearmoriron.name=Iron Horse Armor 2.5
 item.horsearmorleather.name=Leather Horse Armor 1.5
- 
- 
- 
-## Player Armor
-item.leather_helmet.name=Leather Cap 0.5 55
-item.chainmail_helmet.name=Chainmail Helmet 1 165
-item.iron_helmet.name=Iron Helmet 1 165
-item.golden_helmet.name=Golden Helmet 1 77
-item.diamond_helmet.name=Diamond Helmet 1.5 363
-item.netherite_helmet.name=Netherite Helmet 1.5 407
-item.turtle_helmet.name=Turtle Shell 1 275
- 
-item.leather_chestplate.name=Leather Tunic 1.5 80
-item.chainmail_chestplate.name=Chainmail Chestplate 2.5 240
-item.iron_chestplate.name=Iron Chestplate 3 240
-item.golden_chestplate.name=Golden Chestplate 2.5 112
-item.diamond_chestplate.name=Diamond Chestplate 4 528
-item.netherite_chestplate.name=Netherite Chestplate 4 592
- 
-item.leather_leggings.name=Leather Pants 1 75
-item.chainmail_leggings.name=Chainmail Leggings 2 225
-item.iron_leggings.name=Iron Leggings 2.5 225
-item.golden_leggings.name=Golden Leggings 1.5 105
-item.diamond_leggings.name=Diamond Leggings 3 495
-item.netherite_leggings.name=Netherite Leggings 3 555
- 
-item.leather_boots.name=Leather Boots 1.5 65
-item.chainmail_boots.name=Chainmail Boots 1.5 195
-item.iron_boots.name=Iron Boots 1.5 195
-item.golden_boots.name=Golden Boots 1.5 91
-item.diamond_boots.name=Diamond Boots 1.5 429
-item.netherite_boots.name=Netherite Boots 1.5 481
+item.copper_horse_armor.name=Copper Horse Armor 2
+item.horsearmoriron.name=Iron Horse Armor 2.5
+item.horsearmorgold.name=Golden Horse Armor 3.5
+item.horsearmordiamond.name=Diamond Horse Armor 5.5
+item.netherite_horse_armor.name=Netherite Horse Armor 9.5
+item.copper_nautilus_armor.name=Copper Nautilus Armor 2
+item.iron_nautilus_armor.name=Iron Nautilus Armor 2.5
+item.golden_nautilus_armor.name=Golden Nautilus Armor 3.5
+item.diamond_nautilus_armor.name=Diamond Nautilus Armor 5.5
+item.netherite_nautilus_armor.name=Netherite Nautilus Armor 9.5
 
-item.diamond_sword.name=Diamond Sword +7 1561
-item.diamond_pickaxe.name=Diamond Pickaxe +5 1561 
-item.diamond_axe.name=Diamond Axe +6 1561
+ 
+ 
+## Armor and Tools
+item.leather_helmet.name=Leather Cap 0.5 56
+item.chainmail_helmet.name=Chainmail Helmet 1 166
+item.copper_helmet.name=Copper Helmet 1 122
+item.iron_helmet.name=Iron Helmet 1 166
+item.golden_helmet.name=Golden Helmet 1 78
+item.diamond_helmet.name=Diamond Helmet 1.5 364
+item.netherite_helmet.name=Netherite Helmet 1.5 408
+item.turtle_helmet.name=Turtle Shell 1 276
+ 
+item.leather_chestplate.name=Leather Tunic 1.5 81
+item.chainmail_chestplate.name=Chainmail Chestplate 2.5 241
+item.copper_chestplate.name=Copper Chestplate 2 177
+item.iron_chestplate.name=Iron Chestplate 3 241
+item.golden_chestplate.name=Golden Chestplate 2.5 113
+item.diamond_chestplate.name=Diamond Chestplate 4 529
+item.netherite_chestplate.name=Netherite Chestplate 4 593
+ 
+item.leather_leggings.name=Leather Pants 1 76
+item.chainmail_leggings.name=Chainmail Leggings 2 226
+item.copper_leggings.name=Copper Leggings 1.5 166
+item.iron_leggings.name=Iron Leggings 2.5 226
+item.golden_leggings.name=Golden Leggings 1.5 106
+item.diamond_leggings.name=Diamond Leggings 3 496
+item.netherite_leggings.name=Netherite Leggings 3 556
+ 
+item.leather_boots.name=Leather Boots 0.5 66
+item.chainmail_boots.name=Chainmail Boots 0.5 196
+
+item.iron_boots.name=Iron Boots 1 196
+item.golden_boots.name=Golden Boots 0.5 92
+item.diamond_boots.name=Diamond Boots 1.5 430
+item.netherite_boots.name=Netherite Boots 1.5 482
+
+item.diamond_sword.name=Diamond Sword +7 1562
+item.diamond_pickaxe.name=Diamond Pickaxe +5 1562
+item.diamond_axe.name=Diamond Axe +6 1562
 item.diamond_shovel.name=Diamond Shovel +4 1561
-item.diamond_hoe.name=Diamond Hoe +5 1561
+item.diamond_hoe.name=Diamond Hoe +5 1562
 
-item.golden_sword.name=Golden Sword +4 32
-item.golden_pickaxe.name=Golden Pickaxe +2 32
-item.golden_axe.name=Golden Axe +3 32
-item.golden_shovel.name=Golden Shovel +1 32
-item.golden_hoe.name=Golden Hoe +2 32
+item.golden_sword.name=Golden Sword +4 33
+item.golden_pickaxe.name=Golden Pickaxe +2 33
+item.golden_axe.name=Golden Axe +3 33
+item.golden_shovel.name=Golden Shovel +1 33
+item.golden_hoe.name=Golden Hoe +2 33
 
-item.iron_sword.name=Iron Sword +6 250
-item.iron_pickaxe.name=Iron Pickaxe +4 250
-item.iron_axe.name=Iron Axe +5 250
-item.iron_shovel.name=Iron Shovel +3 250
-item.iron_hoe.name=Iron Hoe +4 250
+item.iron_sword.name=Iron Sword +6 251
+item.iron_pickaxe.name=Iron Pickaxe +4 251
+item.iron_axe.name=Iron Axe +5 251
+item.iron_shovel.name=Iron Shovel +3 251
+item.iron_hoe.name=Iron Hoe +4 251
 
 item.stone_sword.name=Stone Sword +5 131
 item.stone_pickaxe.name=Stone Pickaxe +3 131
@@ -673,30 +700,44 @@ item.stone_axe.name=Stone Axe +4 131
 item.stone_shovel.name=Stone Shovel +2 131
 item.stone_hoe.name=Stone Hoe +3 131
 
-item.wooden_sword.name=Wooden Sword +4 59 1
-item.wooden_pickaxe.name=Wooden Pickaxe +2 591
-item.wooden_axe.name=Wooden Axe +3 591
-item.wooden_shovel.name=Wooden Shovel +1 591
-item.wooden_hoe.name=Wooden Hoe +2 591
+item.wooden_sword.name=Wooden Sword +4 60 1
+item.wooden_pickaxe.name=Wooden Pickaxe +2 60 1
+item.wooden_axe.name=Wooden Axe +3 60 1
+item.wooden_shovel.name=Wooden Shovel +1 60 1
+item.wooden_hoe.name=Wooden Hoe +2 60 1
 
-item.netherite_sword.name=Netherite Sword +8 2031
-item.netherite_pickaxe.name=Netherite Pickaxe +6 2031
-item.netherite_axe.name=Netherite Axe +7 2031
-item.netherite_shovel.name=Netherite Shovel +5 2031
-item.netherite_hoe.name=Netherite Hoe +6 2031
+item.netherite_sword.name=Netherite Sword +8 2032
+item.netherite_pickaxe.name=Netherite Pickaxe +6 2032
+item.netherite_axe.name=Netherite Axe +7 2032
+item.netherite_shovel.name=Netherite Shovel +5 2032
+item.netherite_hoe.name=Netherite Hoe +6 2032
 
-item.fishing_rod.name=Fishing Rod 384
+item.copper_sword.name=Copper Sword +5 191
+item.copper_pickaxe.name=Copper Pickaxe +3 191
+item.copper_axe.name=Copper Axe +4 191
+item.copper_shovel.name=Copper Shovel +2 191
+item.copper_hoe.name=Copper Hoe +3 191
+
+item.wooden_spear.name=Wooden Spear +1§b+§r 0.7x 0.65s 60
+item.stone_spear.name=Stone Spear +2§b+§r 0.82x 0.75s 132
+item.copper_spear.name=Copper Spear +2§b+§r  0.82x 0.85s 191
+item.iron_spear.name=Iron Spear +3§b+§r  0.95x 0.95s 251
+item.golden_spear.name=Golden Spear +1§b+§r  0.7x 0.95s 33
+item.diamond_spear.name=Diamond Spear +4§b+§r 1.075x 1.05s 1562
+item.netherite_spear.name=Netherite Spear +5§b+§r 1.2x 1.15s 2032
+
+item.fishing_rod.name=Fishing Rod 385
 item.carrotOnAStick.name=Carrot on a Stick 26
-item.warped_fungus_on_a_stick.name=Warped Fungus on a Stick 100
-item.flint_and_steel.name=Flint and Steel 64
-item.mace.name=Mace §r+5§b+§r 500
-item.trident.name=Trident +8 250
-item.shield.name=Shield 336 100
-item.bow.name=Bow 384 1
-item.crossbow.name=Crossbow 464 1
-item.shears.name=Shears 238
-item.elytra.name=Elytra 432
-item.brush.name=Brush 64
+item.warped_fungus_on_a_stick.name=Warped Fungus on a Stick 101
+item.flint_and_steel.name=Flint and Steel 65
+item.mace.name=Mace +5§b+§r 501
+item.trident.name=Trident +8 251
+item.shield.name=Shield 337 100
+item.bow.name=Bow 385 1
+item.crossbow.name=Crossbow 465 1
+item.shears.name=Shears 239
+item.elytra.name=Elytra 433
+item.brush.name=Brush 65
 
 
 
@@ -710,16 +751,16 @@ enchantment.crossbowPiercing= Piercing
 enchantment.crossbowQuickCharge= Quick Charge
 enchantment.curse.binding= Curse of Binding
 enchantment.curse.vanishing= Curse of Vanishing
-enchantment.damage.all=  Sharpness
-enchantment.damage.arthropods= Bane of Arthropods
-enchantment.damage.undead= Smite
+enchantment.damage.all= Sharpness
+enchantment.damage.arthropods= Bane of Arthropods
+enchantment.damage.undead= Smite
 enchantment.digging= Efficiency
 enchantment.durability= Unbreaking
-enchantment.fire= Fire Aspect
+enchantment.fire= Fire Aspect
 enchantment.fishingSpeed= Lure
 enchantment.frostwalker= Frost Walker
-enchantment.knockback= Knockback
-enchantment.lootBonus= Looting
+enchantment.knockback= Knockback
+enchantment.lootBonus= Looting
 enchantment.lootBonusDigger= Fortune
 enchantment.lootBonusFishing= Luck of the Sea
 enchantment.mending= Mending
@@ -742,6 +783,7 @@ enchantment.swift_sneak= Swift Sneak
 enchantment.heavy_weapon.breach= Breach
 enchantment.heavy_weapon.density= Density
 enchantment.heavy_weapon.windburst= Wind Burst
+enchantment.lunge= Lunge
 
 
 
@@ -832,6 +874,11 @@ item.spawn_egg.entity.breeze.name=Breeze Spawn Egg 30 HP 
 item.spawn_egg.entity.bogged.name=Bogged Spawn Egg 16 HP 
 item.spawn_egg.entity.creaking.name=Creaking Spawn Egg 1 HP 
 item.spawn_egg.entity.happy_ghast.name=Happy Ghast Spawn Egg 20 HP 
+item.spawn_egg.entity.copper_golem.name=Copper Golem Spawn Egg 12 HP 
+item.spawn_egg.entity.nautilus.name=Nautilus Spawn Egg 15 HP 
+item.spawn_egg.entity.zombie_nautilus.name=Zombie Nautilus Spawn Egg 15 HP 
+item.spawn_egg.entity.parched.name=Parched Spawn Egg 16 HP 
+item.spawn_egg.entity.camel_husk.name=Camel Husk Spawn Egg 32 HP 
 
 
 
@@ -1590,62 +1637,3 @@ item.fireworksCharge.type.3= Creeper-shaped
 item.fireworksCharge.type.4= Burst
 item.fireworksCharge.white= White
 item.fireworksCharge.yellow= Yellow
-
-
-
-item.item:snow_berries=Winterberries 1.5 1.6s
-item.item:glowshroom=Glowshroom 0.5 1.6s
-item.honkit26113:wintershroom_item=Wintershroom 0.5 1.6s
-item.honkit26113_item:highland_berries=Highland Berries 1.5 1.6s
-item.honkit26113_item:tropical_berries=Tropical Berries 1.5 1.6s
-
-item.honkit26113:luminous_mushroom_stew=Luminous Mushroom Stew 3 1.6s
-item.honkit26113:mysterious_stew=Mysterious Stew 1.5 1.6s
-item.honkit26113:slime_soup=Slime Soup 3 2s
-item.honkit26113:raw_scorpion=Raw Scorpion 0.5 1.6s
-item.honkit26113:cooked_scorpion=Cooked Scorpion 2.5 1.6s
-
-item.honkit26113:luminite_helmet=Luminite Helmet 1.5 381
-item.honkit26113:luminite_chestplate=Luminite Chestplate 4 554
-item.honkit26113:luminite_leggings=Luminite Leggings 3 520
-item.honkit26113:luminite_boots=Luminite Boots 1.5 450
-item.honkit26113:luminite_sword=Luminite Sword +8 1795
-item.honkit26113:luminite_pickaxe=Luminite Pickaxe +6 1795
-item.honkit26113:luminite_shovel=Luminite Shovel +5 1795
-item.honkit26113:luminite_axe=Luminite Axe +7 1795
-item.honkit26113:luminite_hoe=Luminite Hoe +6 1795
-item.honkit26113:slime_dagger= §aSlime Dagger +4 432
-item.honkit26113:wand_of_the_sands= §6Wand of the Sands 432
-item.honkit26113:bane_of_frost= §bBane of Frost +6 432
-item.honkit26113:slingshot=Slingshot 384
-
-tile.honkit26113:luminous_mushroom.name=Luminous Mushroom 8
-tile.honkit26113:gloomy_mushroom.name=Gloomy Mushroom 3
-tile.honkit26113:mysterious_fungus.name=Mysterious Fungus 6
-tile.honkit26113:radiant_vines_head.name=Radiant Vines Head 3
-tile.honkit26113:radiant_vines_body.name=Radiant Vines Body 3
-item.honkit26113:radiant_vines_item=Radiant Vines 3
-tile.honkit26113:slimy_blossom.name=Slimy Blossom 6
-tile.honkit26113:slime_lantern.name=Slime Lantern 10
-tile.honkit26113:glow_lichen_block.name=Glow Lichen Block 10
-tile.honkit26113:ice_crystal.name=Ice Crystal 6
-tile.honkit26113:dripping_icicle_small.name=Small Dripping Icicle 4
-tile.honkit26113:dripping_icicle_medium.name=Medium Dripping Icicle 4
-item.honkit26113:dripping_icicle_item=Dripping Icicle 4
-tile.honkit26113:soul_shroomlight.name=Soul Shroomlight 15
-tile.honkit26113:soul_magma.name=Soul Magma Block 3
-tile.honkit26113:glowing_obsidian.name=Glowing Obsidian 12
-tile.honkit26113:lava_tank_gold_full.name=Full Gold Lava Tank 15
-tile.honkit26113:lava_tank_gold_locked.name=Locked Gold Lava Tank 15
-tile.honkit26113:lava_tank_diamond_full.name=Full Diamond Lava Tank 15
-tile.honkit26113:lava_tank_diamond_locked.name=Locked Diamond Lava Tank 15
-
-item.spawn_egg.entity.honkit26113:shroom_elf.name=Shroom Elf Spawn Egg 8 HP 
-item.spawn_egg.entity.honkit26113:luminous_mooshroom.name=Luminous Mooshroom Spawn Egg 10 HP 
-item.spawn_egg.entity.honkit26113:slimy_zombie.name=Slimy Zombie Spawn Egg 20 HP 
-item.spawn_egg.entity.honkit26113:scorpion.name=Scorpion Spawn Egg 16 HP 
-item.spawn_egg.entity.honkit26113:penguin.name=Penguin Spawn Egg 12 HP 
-item.spawn_egg.entity.honkit26113:lost_explorer.name=Lost Explorer Spawn Egg 20 HP 
-item.spawn_egg.entity.honkit26113:wisp.name=Wisp Spawn Egg 12 HP 
-item.spawn_egg.entity.honkit26113:sandy_skelly.name=Sandy Skelly Spawn Egg 16 HP 
-item.spawn_egg.entity.honkit26113:frost_spirit.name=Frost Spirit Spawn Egg 16 HP 

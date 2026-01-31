@@ -1,0 +1,1 @@
+Get-ChildItem *.lang | Rename-Item -NewName { $_.Name -replace '\.lang$','.txt' }

@@ -28,7 +28,7 @@
 "Hunger Points Legacy (Unused)": "0xE100": 
 "Hunger Points New": "0xF110": 
 "Saturation Points": "0xF111": 
-"Consuming Time": "0xF10A": 
+"Consuming Time": "0xF10A": 
 "Armor Points": "0xF101": 
 
 "Attack Damage": "0xF109": 
@@ -77,8 +77,10 @@ Cross: "0xF115" 
 "All": "0xE16D": 
 "Curse": "0xE16E": 
 "Mace": "0xF16F": 
+"Spear": "0xF17D": 
 "Shield": "0xF17E": 
 "Shears": "0xF17F": 
+
 
 "Light Level 1": "0xF150": 
 "Light Level 2": "0xF151": 

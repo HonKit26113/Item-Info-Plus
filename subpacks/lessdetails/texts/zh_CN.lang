@@ -1,9 +1,9 @@
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
 hungerpoints.packname=Item Info+
-hungerpoints.version=版本号 1.16.2
+hungerpoints.version=版本号 1.16.3
 hungerpoints.author=由 HonKit26113 创作
-hungerpoints.releasedate=发布日期 2025年5月30日
+hungerpoints.releasedate=发布日期 2026年1月31日
 
 hungerpoints.licence.space= 	#
 
@@ -61,6 +61,7 @@ hungerpoints.licence.legend_text30= 弓
 hungerpoints.licence.legend_text31= 弩
 hungerpoints.licence.legend_text32= 三叉戟
 hungerpoints.licence.legend_text32_1= 重锤
+hungerpoints.licence.legend_text32_2= 長矛
 hungerpoints.licence.legend_text33= 钓鱼竿
 hungerpoints.licence.legend_text34= 诅咒附魔
 
@@ -91,18 +92,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33=
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§l新增内容与改变：
-hungerpoints.licence.text36= §l§e2025 夏季小更新支持：§r
-hungerpoints.licence.text37= 为快乐地狱幽灵添加了 HP 和敌意图标。
-hungerpoints.licence.text38= 为 Tears 唱片增加了播放时间图标。
-hungerpoints.licence.text39= 
-hungerpoints.licence.text40= 
-hungerpoints.licence.text41= 
-hungerpoints.licence.text42= 
-hungerpoints.licence.text42_1= 
-hungerpoints.licence.text42_2=
-hungerpoints.licence.text42_3= 
-hungerpoints.licence.text42_31= 
-hungerpoints.licence.text42_32= 
+hungerpoints.licence.text36= §l§e《铜器时代》支持：§r
+hungerpoints.licence.text37= 为所有铜制盔甲新增护甲值与最大耐久度图标。
+hungerpoints.licence.text38= 为所有铜制工具新增攻击伤害值与最大耐久度图标。
+hungerpoints.licence.text39= 为所有铜制灯笼类型新增亮度等级图标。
+hungerpoints.licence.text40= 为铜制火把新增亮度等级图标。
+hungerpoints.licence.text41= 为铜制傀儡生成蛋新增生命值与敌意图标。
+hungerpoints.licence.text42= §l§e《群骑纷争》支持：§r
+hungerpoints.licence.text42_1= 为所有长矛新增攻击伤害与最大耐久度图标。
+hungerpoints.licence.text42_2= 为所有种类鹦鹉螺盔甲新增护甲保护图标。
+hungerpoints.licence.text42_3= 为下界合金马铠新增护甲保护图标。
+hungerpoints.licence.text42_31= 新增戳刺附魔支持，并为部分适用附魔更新为新长矛图标。
+hungerpoints.licence.text42_32= 为鹦鹉螺、僵尸鹦鹉螺、枯萎生物和骆驼躯壳的生成蛋新增生命值与敌意图标。
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -113,12 +114,12 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43= 	#
 
 hungerpoints.licence.text44=§l已修复 Bug：
-hungerpoints.licence.text44_1= 修正了重锤的耐久度和攻击伤害值。
-hungerpoints.licence.text44_2= 移除了狼铠甲的不准确护甲值显示。
-hungerpoints.licence.text44_3= 
+hungerpoints.licence.text44_1= 修正捷克语语言名称文件的错误。所有图标现应能正确显示在物品名称上！
+hungerpoints.licence.text44_2= 修正皮靴、锁链靴与黄金靴的防护值错误。
+hungerpoints.licence.text44_3= 将所有护甲与工具的耐久度值调整为基岩版的正确数值。
 hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
-hungerpoints.licence.text44_6=
+hungerpoints.licence.text44_6= 
 hungerpoints.licence.text44_7=
 hungerpoints.licence.text44_8=
 hungerpoints.licence.text44_9=
