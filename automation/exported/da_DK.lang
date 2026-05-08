@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Konkyliespawnæg 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Zombiekonkylie-spawnæg 15 HP 
 item.spawn_egg.entity.parched.name=Tørret spawnæg 16 HP 
 item.spawn_egg.entity.camel_husk.name=Kamelørkenzombie-spawnæg 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Svovlterning-spawnæg 8 HP 
 
 
 

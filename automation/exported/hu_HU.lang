@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Nautiluszidéző tojás 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Zombinautilusz-idéző tojás 15 HP 
 item.spawn_egg.entity.parched.name=Tikkadt idézőtojás 16 HP 
 item.spawn_egg.entity.camel_husk.name=Tevehuskidéző tojás 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Kénkocka idézőtojás 8 HP 
 
 
 

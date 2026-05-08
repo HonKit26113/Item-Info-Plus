@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Ovo de Geração de Náutilo 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Ovo de Geração de Náutilo Morto-Vivo 15 HP 
 item.spawn_egg.entity.parched.name=Ovo de Geração de Resseco 16 HP 
 item.spawn_egg.entity.camel_husk.name=Ovo de Geração de Camelo Husk 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Ovo de Geração de Cubo de Enxofre 8 HP 
 
 
 

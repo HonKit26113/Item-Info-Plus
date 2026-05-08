@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Œuf d'apparition de nautile 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Œuf d'apparition de nautile zombie 15 HP 
 item.spawn_egg.entity.parched.name=Œuf d'apparition de desséché 16 HP 
 item.spawn_egg.entity.camel_husk.name=Œuf d'apparition de dromadaire zombie momifié 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Œuf d'apparition de cube de soufre 8 HP 
 
 
 

@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Vejce loděnky 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Vejce zombie loděnky 15 HP 
 item.spawn_egg.entity.parched.name=Vejce vysušence 16 HP 
 item.spawn_egg.entity.camel_husk.name=Vejce velbloudí hladové zombie 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Vejce sírové kostky 8 HP 
 
 
 

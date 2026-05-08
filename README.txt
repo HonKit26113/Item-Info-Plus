@@ -1,5 +1,5 @@
 Item Info+
-Version 1.16.3 (released January 31, 2026)
+Version 1.16.4 (released May 8, 2026)
 Made by HonKit26113. All rights reserved.
 
 This add-on is only available on honkit26113.com and MCPEDL / CurseForge.
@@ -19,30 +19,16 @@ You are NOT allowed to:
 
 ====================
 Changelog
-Version 1.16.3
-Released January 31, 2026
+Version 1.16.4
+Released May 8, 2026
 
 New Additions and Changes:
- - Added a duration icon for the Lava Chickens music disc.
+ + Chaos Cubed Support:
+ - Added HP and hostility icons for the Sulfur Cube spawn egg.
 
- + Copper Age Support:
- - Added armor protection and max durability icons for all Copper Armor.
- - Added attack damage and max durability icons for all Copper Tools.
- - Added light level icons for all types of Copper Lantern.
- - Added a light level icon for the Copper Torch. 
- - Added HP and hostility icons for the Copper Golem spawn egg.
-
- + Mounts of Mayhem support:
- - Added attack damage and max durability icons for all Spears.
- - Added armor protection icons for all types of Nautilus Armor.
- - Added an armor protection icon for Netherite Horse Armor.
- - Added support for the Lunge enchantment and updated some applicable enchantments with a new spear icon.
- - Added HP and hostility icons for the Nautilus, Zombie Nautilus, Parched, and Camel Husk spawn eggs.
-
-Bug Fixes:
- - Fixed incorrect language name file for Czech (Czechia). All icons should now correctly display on item names!
- - Fixed incorrect protection values of Leather, Chain and Golden Boots.
- - Changed durability values of all armor and tools to correct values for Bedrock Edition.
+ + Other Changes:
+ - Moved the Item Info+ settings page to the How To Play screen. The new Ore UI settings page cannot be modified by resource packs.
+ - Updated the How to Play icon in the Pause screen to also include the Item Info+ logo.
 
 ====================
 Credits
@@ -55,4 +41,3 @@ Special thanks to:
 Other contributors:
  - Better Banner Pattern Icon Designs: ChilRx
  - Vietnamese Translation: real_tlgm
- - In-game Language Setting: real_tlgm

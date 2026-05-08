@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=オウムガイのスポーンエッグ 1
 item.spawn_egg.entity.zombie_nautilus.name=ゾンビオウムガイのスポーンエッグ 15 HP 
 item.spawn_egg.entity.parched.name=パーチド スポーンエッグ 16 HP 
 item.spawn_egg.entity.camel_husk.name=ラクダハスク スポーンエッグ 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=硫黄キューブのスポーン エッグ 8 HP 
 
 
 

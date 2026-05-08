@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Uovo di generazione di nautilo 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Uovo di generazione di nautilo zombi 15 HP 
 item.spawn_egg.entity.parched.name=Uovo di generazione di Scheletro secco 16 HP 
 item.spawn_egg.entity.camel_husk.name=Uovo di generazione di Cammello zombi secco 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Uovo di generazione del cubo di zolfo 8 HP 
 
 
 

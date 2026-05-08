@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Яйце за извикване на нау
 item.spawn_egg.entity.zombie_nautilus.name=Яйце за извикване на зомби наутилус 15 HP 
 item.spawn_egg.entity.parched.name=Яйце за извикване напресъхнал 16 HP 
 item.spawn_egg.entity.camel_husk.name=Яйце за извикване на изсушен труп на камила 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Яйце за извикване на серен куб 8 HP 
 
 
 

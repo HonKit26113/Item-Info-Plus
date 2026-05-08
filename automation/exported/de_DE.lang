@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Nautilus-Spawn-Ei 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Zombie-Nautilus-Spawn-Ei 15 HP 
 item.spawn_egg.entity.parched.name=Trockenskelett-Spawn-Ei 16 HP 
 item.spawn_egg.entity.camel_husk.name=Kamelzombie-Spawn-Ei 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Schwefelwürfel-Spawn-Ei 8 HP 
 
 
 

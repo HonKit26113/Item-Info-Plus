@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Huevo generador de nautilo 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Huevo generador de nautilo zombi 15 HP 
 item.spawn_egg.entity.parched.name=Huevo generador reseco 16 HP 
 item.spawn_egg.entity.camel_husk.name=Huevo generador de camello disecado 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Huevo generador de cubo de azufre 8 HP 
 
 
 

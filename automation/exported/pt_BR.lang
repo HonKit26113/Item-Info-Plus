@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Ovo Gerador de Náutilo 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Ovo Gerador de Náutilo Zumbi 15 HP 
 item.spawn_egg.entity.parched.name=Ovo Gerador Ressecado 16 HP 
 item.spawn_egg.entity.camel_husk.name=Ovo Gerador de Camelo Zumbi-múmia 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Ovo Gerador de Cubo de Enxofre 8 HP 
 
 
 

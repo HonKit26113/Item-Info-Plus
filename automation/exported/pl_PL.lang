@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Jajko spawnowania łodzika 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Jajko spawnowania łodzika zombie 15 HP 
 item.spawn_egg.entity.parched.name=Jajko spawnowania wysuszonego 16 HP 
 item.spawn_egg.entity.camel_husk.name=Jajko spawnowania wielbłąda posucha 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Jajko spawnowania kostek siarki 8 HP 
 
 
 

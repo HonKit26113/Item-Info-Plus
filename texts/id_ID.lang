@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=Telur Kemunculan Nautilus 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Telur Kemunculan Zombie Nautilus 15 HP 
 item.spawn_egg.entity.parched.name=Telur Kemunculan Parched 16 HP 
 item.spawn_egg.entity.camel_husk.name=Telur Kemunculan Husk Unta 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Telur Kemunculan Kubus Sulfur 8 HP 
 
 
 

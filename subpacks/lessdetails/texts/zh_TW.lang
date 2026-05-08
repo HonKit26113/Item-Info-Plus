@@ -1,9 +1,13 @@
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
 hungerpoints.packname=Item Info+
-hungerpoints.version=版本號 1.16.3
+hungerpoints.version=版本號 1.16.4
 hungerpoints.author=由 HonKit26113 創作
-hungerpoints.releasedate=發佈日期 2026年1月31日
+hungerpoints.releasedate=發佈日期 2026年5月8日
+
+howtoplay.test=Item Info+
+howtoplay.test.title=Item Info+資訊
+menu.howToPlay=Item Info+資訊及遊戲説明
 
 hungerpoints.licence.space= 	#
 
@@ -24,6 +28,8 @@ hungerpoints.licence.legend_text7=§l工具、武器、裝備上顯示
 hungerpoints.licence.legend_text8= 工具或武器的攻擊傷害。
 hungerpoints.licence.legend_text9= 鋒利附魔帶來的額外攻擊傷害。
 hungerpoints.licence.legend_text10= 物品的最高耐久度。數值不會在工具被使用後減少。
+hungerpoints.licence.legend_text10_1= 僅限長矛：攻擊冷卻時間。
+hungerpoints.licence.legend_text10_2= 僅限長矛：衝鋒攻擊傷害倍增值。
 hungerpoints.licence.legend_text11=§l生怪蛋上顯示
 hungerpoints.licence.legend_text12= 生物的最高生命值。
 hungerpoints.licence.legend_text13= 代表生物是敵對的。
@@ -92,18 +98,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33= 
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§l新增内容與改變：
-hungerpoints.licence.text36= §l§e《銅器時代》支援：§r
-hungerpoints.licence.text37= 為所有銅製盔甲新增護甲值與最大耐久度圖示。
-hungerpoints.licence.text38= 為所有銅製工具新增攻擊傷害值與最大耐久度圖示。
-hungerpoints.licence.text39= 為所有銅製燈籠類型新增亮度等級圖示。
-hungerpoints.licence.text40= 為銅製火把新增亮度等級圖示。
-hungerpoints.licence.text41= 為銅製傀儡生成蛋新增生命值與敵意圖示。
-hungerpoints.licence.text42= §l§e《群騎紛爭》支援：§r
-hungerpoints.licence.text42_1= 為所有長矛新增攻擊傷害與最大耐久度圖示。
-hungerpoints.licence.text42_2= 為所有種類的鸚鵡螺盔甲新增護甲保護圖示。
-hungerpoints.licence.text42_3= 為獄髓馬鎧新增護甲保護圖示。
-hungerpoints.licence.text42_31= 新增平刺附魔支援，並為部分適用附魔更新為新長矛圖示。
-hungerpoints.licence.text42_32= 為鸚鵡螺、殭屍鸚鵡螺、乾枯生物與駱駝軀殼的生成蛋新增生命值與敵意圖示。
+hungerpoints.licence.text36= §l§e《混沌立方》支援：§r
+hungerpoints.licence.text37= 為硫磺立方體生成蛋新增生命值與敵意圖示。
+hungerpoints.licence.text38= §l§e其他更新：§r
+hungerpoints.licence.text39= 因應新的Ore UI設置版面不能被資源包編輯，Item Info+原設於設置的頁面現已搬至遊戲説明頁面。
+hungerpoints.licence.text40= 
+hungerpoints.licence.text41= 
+hungerpoints.licence.text42=
+hungerpoints.licence.text42_1= 
+hungerpoints.licence.text42_2=
+hungerpoints.licence.text42_3=
+hungerpoints.licence.text42_31= 
+hungerpoints.licence.text42_32=
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -114,9 +120,9 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43= 	#
 
 hungerpoints.licence.text44=§l已修復 Bug：
-hungerpoints.licence.text44_1= 修正捷克語語言名稱檔案的錯誤。所有圖示現應能正確顯示於物品名稱上！
-hungerpoints.licence.text44_2= 修正皮靴、鎖鏈靴與黃金靴的防護值錯誤。
-hungerpoints.licence.text44_3= 將所有護甲與工具的耐久度值調整為基岩版的正確數值。
+hungerpoints.licence.text44_1= 
+hungerpoints.licence.text44_2= 
+hungerpoints.licence.text44_3= 
 hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
 hungerpoints.licence.text44_6= 

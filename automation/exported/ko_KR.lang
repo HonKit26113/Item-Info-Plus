@@ -720,6 +720,7 @@ item.spawn_egg.entity.nautilus.name=앵무조개 생성 알 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=좀비 앵무조개 생성 알 15 HP 
 item.spawn_egg.entity.parched.name=메마른 자 생성 알 16 HP 
 item.spawn_egg.entity.camel_husk.name=낙타 허스크  생성 알 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=유황 큐브 생성 알 8 HP 
 
 
 
