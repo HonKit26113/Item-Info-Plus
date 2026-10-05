@@ -2,13 +2,13 @@
 
 
 ## Food Items
-item.apple.name=Apel 2 1.2 1.6dtk
-item.baked_potato.name=Kentang Panggang 2.5 3 1.6dtk
-item.beetroot.name=Ubi Bit Merah 0.5 0.6 1.6dtk
+item.apple.name=Apel 2 1.2 1.6dtk 65
+item.baked_potato.name=Kentang Panggang 2.5 3 1.6dtk 85
+item.beetroot.name=Ubi Bit Merah 0.5 0.6 1.6dtk 65
 item.beetroot_soup.name=Sup Ubi Bit Merah 3 3.6 1.6dtk
-item.bread.name=Roti 2.5 3 1.6dtk
-item.cake.name=Kue 7 1.4 0dtk
-item.carrot.name=Wortel 1.5 1.8 1.6dtk
+item.bread.name=Roti 2.5 3 1.6dtk 85
+item.cake.name=Kue 7 1.4 0dtk 100
+item.carrot.name=Wortel 1.5 1.8 1.6dtk 65
 item.chorus_fruit.name=Buah Chorus 2 1.2 1.6dtk
 item.cooked_beef.name=Bistik 4 6.4 1.6dtk
 item.cooked_chicken.name=Ayam Matang 3 3.6 1.6dtk
@@ -17,18 +17,18 @@ item.muttonCooked.name=Daging Domba Matang 3 4.8 1.6dtk
 item.cooked_porkchop.name=Potongan Daging Babi Matang 4 6.4 1.6dtk
 item.cooked_rabbit.name=Kelinci Matang 2.5 3 1.6dtk
 item.cooked_salmon.name=Salmon Matang 3 4.8 1.6dtk
-item.cookie.name=Kukis 1 0.2 1.6dtk
-item.dried_kelp.name=Rumput Laut Kering 0.5 0.1 0.8dtk 
+item.cookie.name=Kukis 1 0.2 1.6dtk 85
+item.dried_kelp.name=Rumput Laut Kering 0.5 0.1 0.8dtk 30
 item.appleEnchanted.name=Apel Emas Ajaib 2 4.8 1.6dtk
 item.golden_apple.name=Apel Emas 2 4.8 1.6dtk
 item.golden_carrot.name=Wortel Emas 3 7.2 1.6dtk
 item.honey_bottle.name=Botol Madu 3 0.6 2dtk
-item.melon.name=Irisan Melon 1 0.6 1.6dtk
+item.melon.name=Irisan Melon 1 0.6 1.6dtk 50
 item.mushroom_stew.name=Semur Jamur 3 3.6 1.6dtk
 item.poisonous_potato.name=Kentang Beracun 1 0.6 1.6dtk 
-item.potato.name=Kentang 0.5 0.3 1.6dtk
+item.potato.name=Kentang 0.5 0.3 1.6dtk 65
 item.pufferfish.name=Ikan Buntal 0.5 0.1 1.6dtk 
-item.pumpkin_pie.name=Pai labu 4 2.4 1.6dtk
+item.pumpkin_pie.name=Pai labu 4 2.4 1.6dtk 100
 item.rabbit_stew.name=Semur Kelinci 5 6 1.6dtk
 item.beef.name=Daging Mentah 1.5 0.9 1.6dtk
 item.chicken.name=Ayam Mentah 1 0.6 1.6dtk 
@@ -40,20 +40,117 @@ item.salmon.name=Salmon Mentah 1 0.2 1.6dtk
 item.rotten_flesh.name=Daging Busuk 2 0.4 1.6dtk 
 item.spider_eye.name=Mata Laba-Laba 1 1.6 1.6dtk 
 item.suspicious_stew.name=Semur Mencurigakan 3 ? 1.6dtk
-item.sweet_berries.name=Buah Beri Manis 1 0.6 1.6dtk
+item.sweet_berries.name=Buah Beri Manis 1 0.6 1.6dtk 30
 item.clownfish.name=Ikan Tropis 0.5 0.1 1.6dtk
-item.glow_berries.name=Beri Bersinar 1 0.2 1.6dtk 14
+item.glow_berries.name=Beri Bersinar 1 0.2 1.6dtk 14 30
  
  
  
+## Compost
+item.beetroot_seeds.name=Benih Ubi Bit Merah 30
+tile.bush.name=Belukar 30
+tile.cactus_flower.name=Bunga Kaktus 30
+tile.grass.name=Blok Rumput 30
+tile.hanging_roots.name=Akar Gantung 30
+item.kelp.name=Rumput Laut 30
+item.melon_seeds.name=Benih Melon 30
+tile.moss_carpet.name=Karpet Lumut 30
+tile.pale_hanging_moss.name=Lumut Gantung Pucat 30
+tile.pale_moss_carpet.name=Karpet Lumut Pucat 30
+tile.pink_petals.name=Kelopak Merah Muda 30
+item.pitcher_pod.name=Pod Pemakan Serangga 30
+item.pumpkin_seeds.name=Benih Labu 30
+tile.red_shrub.name=Semak Merah 30
+tile.seagrass.seagrass.name=Lamun 30
+tile.tallgrass.grass.name=Rumput Pendek 30
+tile.small_dripleaf_block.name=Daun Drip Kecil 30
+item.torchflower_seeds.name=Biji Kecombrang 30
+item.wheat_seeds.name=Benih Gandum 30
+tile.wildflowers.name=Bunga Liar 30
+tile.leaves.acacia.name=Daun Akasia 30
+tile.leaves.big_oak.name=Daun Ek Gelap 30
+tile.leaves.birch.name=Daun Betula 30
+tile.leaves.jungle.name=Daun Rimba 30
+tile.leaves.oak.name=Daun Ek 30
+tile.leaves.spruce.name=Daun Spruce 30
+tile.azalea_leaves.name=Daun Azalea 30
+tile.mangrove_leaves.name=Daun Bakau 30
+tile.cherry_leaves.name=Daun Sakura 30
+tile.pale_oak_leaves.name=Daun Ek Pucat 30
+tile.red_poplar_leaves.name=Daun Poplar Merah 30
+tile.orange_poplar_leaves.name=Daun Poplar Jingga 30
+tile.yellow_poplar_leaves.name=Daun Poplar Kuning 30
+
+tile.cactus.name=Kaktus 50
+tile.nether_sprouts.name=Kecambah Nether 50
+item.reeds.name=Tebu 50
+tile.double_plant.grass.name=Rumput Tinggi 50
+tile.twisting_vines.name=Tanaman Merambat Melilit 50
+tile.vine.name=Tanaman Rambat 50
+tile.weeping_vines.name=Tanaman Merambat Menangis 50
+tile.azalea_leaves_flowered.name=Daun Azalea Berbunga 50
+
+tile.big_dripleaf.name=Daun Drip Besar 65
+tile.brown_mushroom.name=Jamur Cokelat 65
+tile.carved_pumpkin.name=Labu Ukir 65
+item.dye.brown.name=Biji Cokelat 65
+tile.crimson_roots.crimsonRoots.name=Akar Crimson 65
+tile.tallgrass.fern.name=Pakis 65
+tile.yellow_flower.dandelion.name=Dandelion 65
+tile.red_flower.poppy.name=Poppy 65
+tile.red_flower.blueOrchid.name=Anggrek Biru 65
+tile.red_flower.allium.name=Allium 65
+tile.red_flower.houstonia.name=Bluet Biru Langit 65
+tile.red_flower.tulipRed.name=Tulip Merah 65
+tile.red_flower.tulipOrange.name=Tulip Oranye 65
+tile.red_flower.tulipWhite.name=Tulip Putih 65
+tile.red_flower.tulipPink.name=Tulip Merah Muda 65
+tile.red_flower.oxeyeDaisy.name=Oxeye Daisy 65
+tile.red_flower.cornflower.name=Cornflower 65
+tile.red_flower.lilyOfTheValley.name=Lily of the Valley 65
+tile.wither_rose.name=Mawar Layu 65
+tile.double_plant.sunflower.name=Bunga Matahari 65
+tile.double_plant.syringa.name=Lilac 65
+tile.double_plant.rose.name=Semak Mawar 65
+tile.double_plant.paeonia.name=Peony 65
+tile.closed_eyeblossom.name=Eyeblossom Tertutup 65
+tile.open_eyeblossom.name=Eyeblossom Terbuka 65
+tile.golden_dandelion.name=Dandelion Keemasan 65
+tile.double_plant.fern.name=Pakis Besar 65
+tile.waterlily.name=Teratai 65
+tile.melon_block.name=Melon 65
+tile.moss_block.name=Blok Lumut 65
+tile.brown_mushroom_block.stem.name=Batang Jamur 65
+tile.crimson_fungus.name=Cendawan Crimson 65
+tile.warped_fungus.name=Cendawan Melengkung 65
+item.nether_wart.name=Nether Wart 65
+tile.pale_moss_block.name=Blok Lumut Pucat 65
+tile.pumpkin.name=Labu 65
+tile.red_mushroom.name=Jamur Merah 65
+tile.shelf_mushroom.name=Jamur Rak 65
+tile.spore_blossom.name=Bunga Spora 65
+tile.straw_bed.name=Tempat Tidur Jerami 65
+tile.warped_roots.warpedRoots.name=Akar Melengkung 65
+item.wheat.name=Gandum 65
+
+tile.hay_block.name=Gulungan Jerami 85
+tile.brown_mushroom_block.cap.name=Blok Jamur Cokelat 85
+tile.red_mushroom_block.name=Blok Jamur Merah 85
+tile.nether_wart_block.name=Blok Nether Wart 85
+tile.pitcher_plant.name=Tumbuhan Pemakan Serangga 85
+tile.torchflower.name=Bunga Kecombrang 85
+tile.warped_wart_block.name=Blok Wart Melengkung 85
+
+
+
 ## Furnace Fuel
 item.bucketLava.name=Ember Lahar 100
 tile.coal_block.name=Blok Batu Bara 80
-tile.dried_kelp_block.name=Blok Rumput Laut Kering 20
+tile.dried_kelp_block.name=Blok Rumput Laut Kering 20 50
 item.blaze_rod.name=Tongkat Kobaran Api 12
 item.coal.name=Batu Bara 8
 item.charcoal.name=Arang 8
- 
+
 item.boat.oak.name=Perahu Ek 6
 item.boat.spruce.name=Perahu Spruce 6
 item.boat.birch.name=Perahu Betula 6
@@ -74,7 +171,8 @@ item.chest_boat.mangrove.name=Perahu Bakau dengan Peti 6
 item.chest_boat.bamboo.name=Rakit Bambu dengan Peti 6
 item.chest_boat.cherry.name=Perahu Sakura dengan Peti 6
 item.chest_boat.pale_oak.name=Perahu Ek Pucat dengan Peti 6
- 
+item.chest_boat.poplar.name=Perahu dengan Peti Poplar 6
+
 tile.bamboo_mosaic_slab.name=Lempengan Mozaik Bambu 1.5
 tile.bamboo_mosaic_stairs.name=Tangga Mozaik Bambu 1.5
 tile.bamboo_mosaic.name=Mozaik Bambu 1.5
@@ -93,6 +191,7 @@ tile.log.spruce.name=Batang Spruce 1.5
 tile.mangrove_log.name=Batang Bakau 1.5
 tile.cherry_log.name=Batang Sakura 1.5
 tile.pale_oak_log.name=Batang Ek Pucat 1.5
+tile.poplar_log.name=Batang Poplar 1.5
 tile.stripped_spruce_log.name=Batang Spruce Bersetrip 1.5
 tile.stripped_dark_oak_log.name=Batang Ek Gelap Bersetrip 1.5
 tile.stripped_birch_log.name=Batang Betula Bersetrip 1.5
@@ -102,6 +201,7 @@ tile.stripped_acacia_log.name=Batang Akasia Bersetrip 1.5
 tile.stripped_mangrove_log.name=Batang Bakau Kupas 1.5
 tile.stripped_cherry_log.name=Batang Sakura Bersetrip 1.5
 tile.stripped_pale_oak_log.name=Batang Ek Pucat Bersetrip 1.5
+tile.stripped_poplar_log.name=Batang Poplar Terkupas 1.5
 tile.wood.oak.name=Kayu Ek 1.5
 tile.wood.spruce.name=Kayu Spruce 1.5
 tile.wood.birch.name=Kayu Betula 1.5
@@ -110,6 +210,8 @@ tile.wood.acacia.name=Kayu Akasia 1.5
 tile.wood.dark_oak.name=Kayu Ek Gelap 1.5
 tile.mangrove_wood.name=Kayu Bakau 1.5
 tile.cherry_wood.name=Kayu Sakura 1.5
+tile.pale_oak_wood.name=Kayu Ek Pucat 1.5
+tile.poplar_wood.name=Kayu Poplar 1.5
 tile.wood.stripped.oak.name=Kayu Ek Bersetrip 1.5
 tile.wood.stripped.spruce.name=Kayu Spruce Bersetrip 1.5
 tile.wood.stripped.birch.name=Kayu Betula Bersetrip 1.5
@@ -119,6 +221,7 @@ tile.wood.stripped.dark_oak.name=Kayu Ek Gelap Bersetrip 1.5
 tile.stripped_mangrove_wood.name=Kayu Bakau Kupas 1.5
 tile.stripped_cherry_wood.name=Kayu Sakura Bersetrip 1.5
 tile.stripped_pale_oak_wood.name=Kayu Ek Pucat Bersetrip 1.5
+tile.stripped_poplar_wood.name=Kayu Poplar Terkupas 1.5
 tile.planks.acacia.name=Papan Akasia 1.5
 tile.planks.big_oak.name=Papan Ek Gelap 1.5
 tile.planks.birch.name=Papan Betula 1.5
@@ -130,6 +233,8 @@ tile.mangrove_planks.name=Papan Bakau 1.5
 tile.bamboo_planks.name=Papan Bambu 1.5
 tile.cherry_planks.name=Papan Sakura 1.5
 tile.pale_oak_planks.name=Papan Ek Pucat 1.5
+tile.poplar_planks.name=Papan Poplar 1.5
+
 tile.wooden_slab.oak.name=Lempeng Ek 1.5
 tile.wooden_slab.spruce.name=Lempeng Spruce 1.5
 tile.wooden_slab.acacia.name=Lempeng Akasia 1.5
@@ -140,6 +245,7 @@ tile.mangrove_slab.name=Lempeng Bakau 1.5
 tile.bamboo_slab.name=Lempengan Bambu 1.5
 tile.cherry_slab.name=Lempengan Sakura 1.5
 tile.pale_oak_slab.name=Lempeng Ek Pucat 1.5
+tile.poplar_slab.name=Lempeng Poplar 1.5
 tile.oak_stairs.name=Tangga Ek 1.5
 tile.acacia_stairs.name=Tangga Akasia 1.5
 tile.birch_stairs.name=Tangga Betula 1.5
@@ -150,6 +256,7 @@ tile.mangrove_stairs.name=Tangga Bakau 1.5
 tile.bamboo_stairs.name=Tangga Bambu 1.5
 tile.cherry_stairs.name=Tangga Sakura 1.5
 tile.pale_oak_stairs.name=Tangga Ek Pucat 1.5
+tile.poplar_stairs.name=Tangga Poplar 1.5
 tile.wooden_pressure_plate.name=Pelat Tekanan Ek 1.5
 tile.acacia_pressure_plate.name=Pelat Tekanan Akasia 1.5
 tile.birch_pressure_plate.name=Pelat Tekanan Betula 1.5
@@ -159,6 +266,7 @@ tile.spruce_pressure_plate.name=Pelat Tekanan Spruce 1.5
 tile.bamboo_pressure_plate.name=Pelat Tekanan Bambu 1.5
 tile.cherry_pressure_plate.name=Pelat Tekanan Sakura 1.5
 tile.pale_oak_pressure_plate.name=Pelat Tekanan Ek Pucat 1.5
+tile.poplar_pressure_plate.name=Pelat Penekan Poplar 1.5
 tile.wooden_button.name=Tombol Ek 1.5
 tile.spruce_button.name=Tombol Spruce 1.5
 tile.acacia_button.name=Tombol Akasia 1.5
@@ -169,6 +277,7 @@ tile.mangrove_button.name=Tombol Bakau 1.5
 tile.bamboo_button.name=Tombol Bambu 1.5
 tile.cherry_button.name=Tombol Sakura 1.5
 tile.pale_oak_button.name=Tombol Ek Pucat 1.5
+tile.poplar_button.name=Tombol Poplar 1.5
 tile.trapdoor.name=Pintu Perangkap Ek 1.5
 tile.acacia_trapdoor.name=Pintu Perangkap Akasia 1.5
 tile.birch_trapdoor.name=Pintu Perangkap Betula 1.5
@@ -179,6 +288,7 @@ tile.mangrove_trapdoor.name=Pintu Perangkap Bakau 1.5
 tile.bamboo_trapdoor.name=Pintu Perangkap Bambu 1.5
 tile.cherry_trapdoor.name=Pintu Perangkap Sakura 1.5
 tile.pale_oak_trapdoor.name=Pintu Perangkap Ek Pucat 1.5
+tile.poplar_trapdoor.name=Pintu Kolong Poplar 1.5
 tile.fence.name=Pagar Ek 1.5
 tile.fence_gate.name=Gerbang Pagar Ek 1.5
 tile.spruceFence.name=Pagar Spruce 1.5
@@ -199,7 +309,9 @@ tile.cherry_fence_gate.name=Gerbang Pagar Sakura 1.5
 tile.cherry_fence.name=Pagar Sakura 1.5
 tile.pale_oak_fence_gate.name=Gerbang Pagar Ek Pucat 1.5
 tile.pale_oak_fence.name=Pagar Ek Pucat 1.5
-tile.mangrove_roots.name=Akar Bakau 1.5
+tile.poplar_fence_gate.name=Pintu Pagar Poplar 1.5
+tile.poplar_fence.name=Pagar Poplar 1.5
+tile.mangrove_roots.name=Akar Bakau 1.5 30
 tile.ladder.name=Tangga 1.5
 tile.crafting_table.name=Meja Pembuatan 1.5
 tile.cartography_table.name=Meja Kartografi 1.5
@@ -233,7 +345,7 @@ tile.standing_banner.silver.name=Banner Abu-Abu Muda 1.5
 tile.standing_banner.white.name=Banner 1.5
 tile.standing_banner.yellow.name=Banner Kuning 1.5
 item.fishing_rod.name=Tongkat Pancing 1.5
- 
+
 item.acacia_door.name=Pintu Akasia 1
 item.birch_door.name=Pintu Betula 1
 item.dark_oak_door.name=Pintu Ek Hitam 1
@@ -244,6 +356,7 @@ item.mangrove_door.name=Pintu Bakau 1
 item.bamboo_door.name=Pintu Bambu 1
 item.cherry_door.name=Pintu Sakura 1
 item.pale_oak_door.name=Pintu Ek Pucat 1
+item.poplar_door.name=Pintu Poplar 1
 item.sign.name=Tanda Ek 1
 item.spruce_sign.name=Tanda Spruce 1
 item.birch_sign.name=Tanda Betula 1
@@ -254,6 +367,7 @@ item.mangrove_sign.name=Tanda Bakau 1
 item.bamboo_sign.name=Tanda Bambu 1
 item.cherry_sign.name=Tanda Sakura 1
 item.pale_oak_sign.name=Tanda Ek Pucat 1
+item.poplar_sign.name=Tanda Poplar 1
 item.acacia_hanging_sign.name=Tanda Gantung Akasia 1
 item.bamboo_hanging_sign.name=Tanda Gantung Bambu 1
 item.birch_hanging_sign.name=Tanda Gantung Betula 1
@@ -264,26 +378,42 @@ item.mangrove_hanging_sign.name=Tanda Gantung Bakau 1
 item.oak_hanging_sign.name=Tanda Gantung Ek 1
 item.spruce_hanging_sign.name=Tanda Gantung Spruce 1
 item.pale_oak_hanging_sign.name=Papan Tanda Gantung Ek Pucat 1
+item.poplar_hanging_sign.name=Tanda Gantung Poplar 1
+
+tile.acacia_shelf.name=Rak Akasia 1.5
+tile.bamboo_shelf.name=Rak Bambu 1.5
+tile.birch_shelf.name=Rak Betula 1.5
+tile.cherry_shelf.name=Rak Sakura 1.5
+tile.dark_oak_shelf.name=Rak Ek Gelap 1.5
+tile.jungle_shelf.name=Rak Rimba 1.5
+tile.mangrove_shelf.name=Rak Bakau 1.5
+tile.oak_shelf.name=Rak Ek 1.5
+tile.spruce_shelf.name=Rak Spruce 1.5
+tile.pale_oak_shelf.name=Rak Ek Pucat 1.5
+tile.poplar_shelf.name=Rak Poplar 1.5
+
 item.bowl.name=Mangkuk 1
- 
-tile.sapling.acacia.name=Pohon Muda Akasia 0.5
-tile.sapling.big_oak.name=Pohon Muda Ek Gelap 0.5
-tile.sapling.birch.name=Pohon Muda Betula 0.5
-tile.sapling.jungle.name=Pohon Muda Rimba 0.5
-tile.sapling.oak.name=Pohon Muda Ek 0.5
-tile.sapling.spruce.name=Pohon Muda Spruce 0.5
-tile.cherry_sapling.name=Pohon Muda Sakura 0.5
-tile.pale_oak_sapling.name=Pohon Muda Ek Pucat 0.5
+
+tile.sapling.acacia.name=Pohon Muda Akasia 0.5 30
+tile.sapling.big_oak.name=Pohon Muda Ek Gelap 0.5 30
+tile.sapling.birch.name=Pohon Muda Betula 0.5 30
+tile.sapling.jungle.name=Pohon Muda Rimba 0.5 30
+tile.sapling.oak.name=Pohon Muda Ek 0.5 30
+tile.sapling.spruce.name=Pohon Muda Spruce 0.5 30
+tile.mangrove_propagule.name=Propagula Bakau 0.5 30
+tile.cherry_sapling.name=Pohon Muda Sakura 0.5 30
+tile.pale_oak_sapling.name=Pohon Muda Ek Pucat 0.5 30
+tile.poplar_sapling.name=Bibit Poplar 0.5 30
 item.stick.name=Tongkat 0.5
 tile.deadbush.name=Semak Mati 0.5
-tile.azalea.name=Azalea 0.5
-tile.flowering_azalea.name=Azalea Berbunga 0.5
- 
+tile.azalea.name=Azalea 0.5 65
+tile.flowering_azalea.name=Azalea Berbunga 0.5 85
+
 tile.bamboo.name=Bambu 0.25
 tile.scaffolding.name=Perancah 0.25
-tile.short_dry_grass.name=Rumput Kering Pendek 0.5
-tile.tall_dry_grass.name=Rumput Kering Tinggi 0.5
-tile.leaf_litter.name=Serasah Daun 0.5
+tile.short_dry_grass.name=Rumput Kering Pendek 0.5 30
+tile.tall_dry_grass.name=Rumput Kering Tinggi 0.5 30
+tile.leaf_litter.name=Serasah Daun 0.5 30
 
 
 
@@ -297,7 +427,7 @@ tile.lantern.name=Lentera 15
 tile.redstone_lamp.name=Lampu Batu Merah 15
 tile.respawn_anchor.name=Munculkan Kembali Jangkar 3/7/11/15
 tile.seaLantern.name=Lentera Laut 15
-tile.sea_pickle.name=Teripang 6/9/12/15
+tile.sea_pickle.name=Teripang 9/12/15 65
 tile.shroomlight.name=Jamur Menyala 15
 tile.end_rod.name=Tongkat End 14
 tile.torch.name=Obor 14
@@ -327,7 +457,7 @@ tile.soul_lantern.name=Lentera Jiwa 10
 tile.soul_torch.name=Obor Jiwa 10
 tile.enchanting_table.name=Meja Sihir 7
 tile.enderChest.name=Peti Ender 7
-tile.glow_lichen.name=Lichen Bersinar 7
+tile.glow_lichen.name=Lichen Bersinar 50
 tile.redstone_torch.name=Obor Batu Merah 7
 tile.amethyst_cluster.name=Kluster Amethyst 5
 tile.large_amethyst_bud.name=Kuncup Amethyst Besar 4
@@ -463,7 +593,8 @@ item.record_creator.desc=Lena Raine - Creator 2:56
 item.record_creator_music_box.desc=Lena Raine - Creator (Music Box) 1:13
 item.record_precipice.desc=Aaron Cherof - Precipice 4:59
 item.record_tears.desc=Amos Roddy - Tears 2:55
-item.record_lava_chicken.desc=Hyper Potions - Lava Chicken  2:15
+item.record_lava_chicken.desc=Hyper Potions - Lava Chicken 2:15
+item.record_bounce.desc=fingerspit - Bounce 3:54
 
 
 
@@ -481,8 +612,8 @@ item.golden_nautilus_armor.name=Baju Zirah Nautilus Emas 3.5
 item.diamond_nautilus_armor.name=Baju Zirah Nautilus Berlian 5.5
 item.netherite_nautilus_armor.name=Baju Zirah Nautilus Netherit 9.5
 
- 
- 
+
+
 ## Armor and Tools
 item.leather_helmet.name=Topi Kulit 0.5 56
 item.chainmail_helmet.name=Helm Rantai Besi 1 166
@@ -511,7 +642,7 @@ item.netherite_leggings.name=Legging Netherite 3 556
  
 item.leather_boots.name=Sepatu Bot Kulit 0.5 66
 item.chainmail_boots.name=Sepatu Bot Rantai Besi 0.5 196
-
+item.copper_boots.name=Sepatu Tembaga 0.5 144
 item.iron_boots.name=Sepatu Bot Besi 1 196
 item.golden_boots.name=Sepatu Bot Emas 0.5 92
 item.diamond_boots.name=Sepatu Bot Berlian 1.5 430
@@ -561,9 +692,9 @@ item.copper_hoe.name=Cangkul Tembaga +3 191
 
 item.wooden_spear.name=Tombak Kayu +1§b+§r 0.7x 0.65s 60
 item.stone_spear.name=Tombak Batu +2§b+§r 0.82x 0.75s 132
-item.copper_spear.name=Tombak Tembaga +2§b+§r  0.82x 0.85s 191
-item.iron_spear.name=Tombak Besi +3§b+§r  0.95x 0.95s 251
-item.golden_spear.name=Tombak Emas +1§b+§r  0.7x 0.95s 33
+item.copper_spear.name=Tombak Tembaga +2§b+§r 0.82x 0.85s 191
+item.iron_spear.name=Tombak Besi +3§b+§r 0.95x 0.95s 251
+item.golden_spear.name=Tombak Emas +1§b+§r 0.7x 0.95s 33
 item.diamond_spear.name=Tombak Berlian +4§b+§r 1.075x 1.05s 1562
 item.netherite_spear.name=Tombak Netherite +5§b+§r 1.2x 1.15s 2032
 
@@ -720,6 +851,7 @@ item.spawn_egg.entity.nautilus.name=Telur Kemunculan Nautilus 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Telur Kemunculan Zombie Nautilus 15 HP 
 item.spawn_egg.entity.parched.name=Telur Kemunculan Parched 16 HP 
 item.spawn_egg.entity.camel_husk.name=Telur Kemunculan Husk Unta 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Telur Kemunculan Kubus Sulfur 8/4 HP 
 
 
 
@@ -1470,11 +1602,11 @@ item.fireworksCharge.purple= Ungu
 item.fireworksCharge.red= Merah
 item.fireworksCharge.silver= Abu-Abu Muda
 item.fireworksCharge.trail= Jejak
-item.fireworksCharge.type.0= Bola Kecil
-item.fireworksCharge.type.0= Bola Kecil
-item.fireworksCharge.type.1= Bola Besar
-item.fireworksCharge.type.2= Berbentuk Bintang
-item.fireworksCharge.type.3= Berbentuk Creeper
-item.fireworksCharge.type.4= Ledakan
+item.fireworksCharge.type.0= Ledakan bola kecil
+item.fireworksCharge.type.0= Ledakan bola kecil
+item.fireworksCharge.type.1= Ledakan bola besar
+item.fireworksCharge.type.2= Ledakan berbentuk bintang
+item.fireworksCharge.type.3= Ledakan berbentuk Creeper
+item.fireworksCharge.type.4= Ledakan sembur
 item.fireworksCharge.white= Putih
 item.fireworksCharge.yellow= Kuning

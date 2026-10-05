@@ -4,6 +4,7 @@
 hungerpoints.licence.text10_1=Special thanks to §eNetherNinja ( @NetherNinja)§r for this settings panel, and to §ereal_tlgm ( @tlgm2308)§r for further optimising the code!
 
 
+menu.howToPlay=Item Info+ docs & How to Play
 
 hungerpoints.licence.legend_text5=§lShown on Armour
 hungerpoints.licence.legend_text6= Armour Points a piece of Armour gives after putting it on.
@@ -11,18 +12,15 @@ hungerpoints.licence.legend_text6= Armour Points a piece of Armour gives afte
 iteminfo.section5_text7= Monetise the pack download. Doing so could result in a copyright takedown.
 
 
-hungerpoints.licence.text37= Added armour protection and max durability icons for all Copper Armour.
-hungerpoints.licence.text42_2= Added armour protection icons for all types of Nautilus Armour.
-hungerpoints.licence.text42_3= Added an armour protection icon for Netherite Horse Armour.
 
 ## Food Items
-item.apple.name=Apple 2 1.2 1.6s
-item.baked_potato.name=Jacket Potato 2.5 3 1.6s
-item.beetroot.name=Beetroot 0.5 0.6 1.6s
+item.apple.name=Apple 2 1.2 1.6s 65
+item.baked_potato.name=Jacket Potato 2.5 3 1.6s 85
+item.beetroot.name=Beetroot 0.5 0.6 1.6s 65
 item.beetroot_soup.name=Beetroot Soup 3 3.6 1.6s
-item.bread.name=Bread 2.5 3 1.6s
-item.cake.name=Cake 7 1.4 0s
-item.carrot.name=Carrot 1.5 1.8 1.6s
+item.bread.name=Bread 2.5 3 1.6s 85
+item.cake.name=Cake 7 1.4 0s 100
+item.carrot.name=Carrot 1.5 1.8 1.6s 65
 item.chorus_fruit.name=Chorus Fruit 2 1.2 1.6s
 item.cooked_beef.name=Steak 4 6.4 1.6s
 item.cooked_chicken.name=Cooked Chicken 3 3.6 1.6s
@@ -31,18 +29,18 @@ item.muttonCooked.name=Cooked Mutton 3 4.8 1.6s
 item.cooked_porkchop.name=Cooked Porkchop 4 6.4 1.6s
 item.cooked_rabbit.name=Cooked Rabbit 2.5 3 1.6s
 item.cooked_salmon.name=Cooked Salmon 3 4.8 1.6s
-item.cookie.name=Cookie 1 0.2 1.6s
-item.dried_kelp.name=Dried Kelp 0.5 0.1 0.8s 
+item.cookie.name=Cookie 1 0.2 1.6s 85
+item.dried_kelp.name=Dried Kelp 0.5 0.1 0.8s 30
 item.appleEnchanted.name=Enchanted Golden Apple 2 4.8 1.6s
 item.golden_apple.name=Golden Apple 2 4.8 1.6s
 item.golden_carrot.name=Golden Carrot 3 7.2 1.6s
 item.honey_bottle.name=Honey Bottle 3 0.6 2s
-item.melon.name=Melon Slice 1 0.6 1.6s
+item.melon.name=Melon Slice 1 0.6 1.6s 50
 item.mushroom_stew.name=Mushroom Stew 3 3.6 1.6s
 item.poisonous_potato.name=Poisonous Potato 1 0.6 1.6s 
-item.potato.name=Potato 0.5 0.3 1.6s
+item.potato.name=Potato 0.5 0.3 1.6s 65
 item.pufferfish.name=Pufferfish 0.5 0.1 1.6s 
-item.pumpkin_pie.name=Pumpkin Pie 4 2.4 1.6s
+item.pumpkin_pie.name=Pumpkin Pie 4 2.4 1.6s 100
 item.rabbit_stew.name=Rabbit Stew 5 6 1.6s
 item.beef.name=Raw Beef 1.5 0.9 1.6s
 item.chicken.name=Raw Chicken 1 0.6 1.6s 
@@ -54,20 +52,117 @@ item.salmon.name=Raw Salmon 1 0.2 1.6s
 item.rotten_flesh.name=Rotten Flesh 2 0.4 1.6s 
 item.spider_eye.name=Spider Eye 1 1.6 1.6s 
 item.suspicious_stew.name=Suspicious Stew 3 ? 1.6s
-item.sweet_berries.name=Sweet Berries 1 0.6 1.6s
+item.sweet_berries.name=Sweet Berries 1 0.6 1.6s 30
 item.clownfish.name=Tropical Fish 0.5 0.1 1.6s
-item.glow_berries.name=Glow Berries 1 0.2 1.6s 14
+item.glow_berries.name=Glow Berries 1 0.2 1.6s 14 30
  
  
  
+## Compost
+item.beetroot_seeds.name=Beetroot Seeds 30
+tile.bush.name=Bush 30
+tile.cactus_flower.name=Cactus Flower 30
+tile.grass.name=Grass Block 30
+tile.hanging_roots.name=Hanging Roots 30
+item.kelp.name=Kelp 30
+item.melon_seeds.name=Melon Seeds 30
+tile.moss_carpet.name=Moss Carpet 30
+tile.pale_hanging_moss.name=Pale Hanging Moss 30
+tile.pale_moss_carpet.name=Pale Moss Carpet 30
+tile.pink_petals.name=Pink Petals 30
+item.pitcher_pod.name=Pitcher Pod 30
+item.pumpkin_seeds.name=Pumpkin Seeds 30
+tile.red_shrub.name=Red Shrub 30
+tile.seagrass.seagrass.name=Seagrass 30
+tile.tallgrass.grass.name=Short Grass 30
+tile.small_dripleaf_block.name=Small Dripleaf 30
+item.torchflower_seeds.name=Torchflower Seeds 30
+item.wheat_seeds.name=Wheat Seeds 30
+tile.wildflowers.name=Wildflowers 30
+tile.leaves.acacia.name=Acacia Leaves 30
+tile.leaves.big_oak.name=Dark Oak Leaves 30
+tile.leaves.birch.name=Birch Leaves 30
+tile.leaves.jungle.name=Jungle Leaves 30
+tile.leaves.oak.name=Oak Leaves 30
+tile.leaves.spruce.name=Spruce Leaves 30
+tile.azalea_leaves.name=Azalea Leaves 30
+tile.mangrove_leaves.name=Mangrove Leaves 30
+tile.cherry_leaves.name=Cherry Leaves 30
+tile.pale_oak_leaves.name=Pale Oak Leaves 30
+tile.red_poplar_leaves.name=Red Poplar Leaves 30
+tile.orange_poplar_leaves.name=Orange Poplar Leaves 30
+tile.yellow_poplar_leaves.name=Yellow Poplar Leaves 30
+
+tile.cactus.name=Cactus 50
+tile.nether_sprouts.name=Nether Sprouts 50
+item.reeds.name=Sugar Cane 50
+tile.double_plant.grass.name=Tall Grass 50
+tile.twisting_vines.name=Twisting Vines 50
+tile.vine.name=Vines 50
+tile.weeping_vines.name=Weeping Vines 50
+tile.azalea_leaves_flowered.name=Flowering Azalea Leaves 50
+
+tile.big_dripleaf.name=Big Dripleaf 65
+tile.brown_mushroom.name=Brown Mushroom 65
+tile.carved_pumpkin.name=Carved Pumpkin 65
+item.dye.brown.name=Cocoa Beans 65
+tile.crimson_roots.crimsonRoots.name=Crimson Roots 65
+tile.tallgrass.fern.name=Fern 65
+tile.yellow_flower.dandelion.name=Dandelion 65
+tile.red_flower.poppy.name=Poppy 65
+tile.red_flower.blueOrchid.name=Blue Orchid 65
+tile.red_flower.allium.name=Allium 65
+tile.red_flower.houstonia.name=Azure Bluet 65
+tile.red_flower.tulipRed.name=Red Tulip 65
+tile.red_flower.tulipOrange.name=Orange Tulip 65
+tile.red_flower.tulipWhite.name=White Tulip 65
+tile.red_flower.tulipPink.name=Pink Tulip 65
+tile.red_flower.oxeyeDaisy.name=Oxeye Daisy 65
+tile.red_flower.cornflower.name=Cornflower 65
+tile.red_flower.lilyOfTheValley.name=Lily of the Valley 65
+tile.wither_rose.name=Wither Rose 65
+tile.double_plant.sunflower.name=Sunflower 65
+tile.double_plant.syringa.name=Lilac 65
+tile.double_plant.rose.name=Rose Bush 65
+tile.double_plant.paeonia.name=Peony 65
+tile.closed_eyeblossom.name=Closed Eyeblossom 65
+tile.open_eyeblossom.name=Open Eyeblossom 65
+tile.golden_dandelion.name=Golden Dandelion 65
+tile.double_plant.fern.name=Large Fern 65
+tile.waterlily.name=Lily Pad 65
+tile.melon_block.name=Melon 65
+tile.moss_block.name=Moss Block 65
+tile.brown_mushroom_block.stem.name=Mushroom Stem 65
+tile.crimson_fungus.name=Crimson Fungus 65
+tile.warped_fungus.name=Warped Fungus 65
+item.nether_wart.name=Nether Wart 65
+tile.pale_moss_block.name=Pale Moss Block 65
+tile.pumpkin.name=Pumpkin 65
+tile.red_mushroom.name=Red Mushroom 65
+tile.shelf_mushroom.name=Shelf Mushroom 65
+tile.spore_blossom.name=Spore Blossom 65
+tile.straw_bed.name=Straw Bed 65
+tile.warped_roots.warpedRoots.name=Warped Roots 65
+item.wheat.name=Wheat 65
+
+tile.hay_block.name=Hay Bale 85
+tile.brown_mushroom_block.cap.name=Brown Mushroom Block 85
+tile.red_mushroom_block.name=Red Mushroom Block 85
+tile.nether_wart_block.name=Nether Wart Block 85
+tile.pitcher_plant.name=Pitcher Plant 85
+tile.torchflower.name=Torchflower 85
+tile.warped_wart_block.name=Warped Wart Block 85
+
+
+
 ## Furnace Fuel
 item.bucketLava.name=Lava Bucket 100
 tile.coal_block.name=Block of Coal 80
-tile.dried_kelp_block.name=Dried Kelp Block 20
+tile.dried_kelp_block.name=Dried Kelp Block 20 50
 item.blaze_rod.name=Blaze Rod 12
 item.coal.name=Coal 8
 item.charcoal.name=Charcoal 8
- 
+
 item.boat.oak.name=Oak Boat 6
 item.boat.spruce.name=Spruce Boat 6
 item.boat.birch.name=Birch Boat 6
@@ -88,7 +183,8 @@ item.chest_boat.mangrove.name=Mangrove Boat with Chest 6
 item.chest_boat.bamboo.name=Bamboo Raft with Chest 6
 item.chest_boat.cherry.name=Cherry Boat with Chest 6
 item.chest_boat.pale_oak.name=Pale Oak Boat with Chest 6
- 
+item.chest_boat.poplar.name=Poplar Boat with Chest 6
+
 tile.bamboo_mosaic_slab.name=Bamboo Mosaic Slab 1.5
 tile.bamboo_mosaic_stairs.name=Bamboo Mosaic Stairs 1.5
 tile.bamboo_mosaic.name=Bamboo Mosaic 1.5
@@ -107,6 +203,7 @@ tile.log.spruce.name=Spruce Log 1.5
 tile.mangrove_log.name=Mangrove Log 1.5
 tile.cherry_log.name=Cherry Log 1.5
 tile.pale_oak_log.name=Pale Oak Log 1.5
+tile.poplar_log.name=Poplar Log 1.5
 tile.stripped_spruce_log.name=Stripped Spruce Log 1.5
 tile.stripped_dark_oak_log.name=Stripped Dark Oak Log 1.5
 tile.stripped_birch_log.name=Stripped Birch Log 1.5
@@ -116,6 +213,7 @@ tile.stripped_acacia_log.name=Stripped Acacia Log 1.5
 tile.stripped_mangrove_log.name=Stripped Mangrove Log 1.5
 tile.stripped_cherry_log.name=Stripped Cherry Log 1.5
 tile.stripped_pale_oak_log.name=Stripped Pale Oak Log 1.5
+tile.stripped_poplar_log.name=Stripped Poplar Log 1.5
 tile.wood.oak.name=Oak Wood 1.5
 tile.wood.spruce.name=Spruce Wood 1.5
 tile.wood.birch.name=Birch Wood 1.5
@@ -124,6 +222,8 @@ tile.wood.acacia.name=Acacia Wood 1.5
 tile.wood.dark_oak.name=Dark Oak Wood 1.5
 tile.mangrove_wood.name=Mangrove Wood 1.5
 tile.cherry_wood.name=Cherry Wood 1.5
+tile.pale_oak_wood.name=Pale Oak Wood 1.5
+tile.poplar_wood.name=Poplar Wood 1.5
 tile.wood.stripped.oak.name=Stripped Oak Wood 1.5
 tile.wood.stripped.spruce.name=Stripped Spruce Wood 1.5
 tile.wood.stripped.birch.name=Stripped Birch Wood 1.5
@@ -133,6 +233,7 @@ tile.wood.stripped.dark_oak.name=Stripped Dark Oak Wood 1.5
 tile.stripped_mangrove_wood.name=Stripped Mangrove Wood 1.5
 tile.stripped_cherry_wood.name=Stripped Cherry Wood 1.5
 tile.stripped_pale_oak_wood.name=Stripped Pale Oak Wood 1.5
+tile.stripped_poplar_wood.name=Stripped Poplar Wood 1.5
 tile.planks.acacia.name=Acacia Planks 1.5
 tile.planks.big_oak.name=Dark Oak Planks 1.5
 tile.planks.birch.name=Birch Planks 1.5
@@ -144,6 +245,8 @@ tile.mangrove_planks.name=Mangrove Planks 1.5
 tile.bamboo_planks.name=Bamboo Planks 1.5
 tile.cherry_planks.name=Cherry Planks 1.5
 tile.pale_oak_planks.name=Pale Oak Planks 1.5
+tile.poplar_planks.name=Poplar Planks 1.5
+
 tile.wooden_slab.oak.name=Oak Slab 1.5
 tile.wooden_slab.spruce.name=Spruce Slab 1.5
 tile.wooden_slab.acacia.name=Acacia Slab 1.5
@@ -154,6 +257,7 @@ tile.mangrove_slab.name=Mangrove Slab 1.5
 tile.bamboo_slab.name=Bamboo Slab 1.5
 tile.cherry_slab.name=Cherry Slab 1.5
 tile.pale_oak_slab.name=Pale Oak Slab 1.5
+tile.poplar_slab.name=Poplar Slab 1.5
 tile.oak_stairs.name=Oak Stairs 1.5
 tile.acacia_stairs.name=Acacia Stairs 1.5
 tile.birch_stairs.name=Birch Stairs 1.5
@@ -164,6 +268,7 @@ tile.mangrove_stairs.name=Mangrove Stairs 1.5
 tile.bamboo_stairs.name=Bamboo Stairs 1.5
 tile.cherry_stairs.name=Cherry Stairs 1.5
 tile.pale_oak_stairs.name=Pale Oak Stairs 1.5
+tile.poplar_stairs.name=Poplar Stairs 1.5
 tile.wooden_pressure_plate.name=Oak Pressure Plate 1.5
 tile.acacia_pressure_plate.name=Acacia Pressure Plate 1.5
 tile.birch_pressure_plate.name=Birch Pressure Plate 1.5
@@ -173,6 +278,7 @@ tile.spruce_pressure_plate.name=Spruce Pressure Plate 1.5
 tile.bamboo_pressure_plate.name=Bamboo Pressure Plate 1.5
 tile.cherry_pressure_plate.name=Cherry Pressure Plate 1.5
 tile.pale_oak_pressure_plate.name=Pale Oak Pressure Plate 1.5
+tile.poplar_pressure_plate.name=Poplar Pressure Plate 1.5
 tile.wooden_button.name=Oak Button 1.5
 tile.spruce_button.name=Spruce Button 1.5
 tile.acacia_button.name=Acacia Button 1.5
@@ -183,6 +289,7 @@ tile.mangrove_button.name=Mangrove Button 1.5
 tile.bamboo_button.name=Bamboo Button 1.5
 tile.cherry_button.name=Cherry Button 1.5
 tile.pale_oak_button.name=Pale Oak Button 1.5
+tile.poplar_button.name=Poplar Button 1.5
 tile.trapdoor.name=Oak Trapdoor 1.5
 tile.acacia_trapdoor.name=Acacia Trapdoor 1.5
 tile.birch_trapdoor.name=Birch Trapdoor 1.5
@@ -193,6 +300,7 @@ tile.mangrove_trapdoor.name=Mangrove Trapdoor 1.5
 tile.bamboo_trapdoor.name=Bamboo Trapdoor 1.5
 tile.cherry_trapdoor.name=Cherry Trapdoor 1.5
 tile.pale_oak_trapdoor.name=Pale Oak Trapdoor 1.5
+tile.poplar_trapdoor.name=Poplar Trapdoor 1.5
 tile.fence.name=Oak Fence 1.5
 tile.fence_gate.name=Oak Fence Gate 1.5
 tile.spruceFence.name=Spruce Fence 1.5
@@ -213,7 +321,9 @@ tile.cherry_fence_gate.name=Cherry Fence Gate 1.5
 tile.cherry_fence.name=Cherry Fence 1.5
 tile.pale_oak_fence_gate.name=Pale Oak Fence Gate 1.5
 tile.pale_oak_fence.name=Pale Oak Fence 1.5
-tile.mangrove_roots.name=Mangrove Roots 1.5
+tile.poplar_fence_gate.name=Poplar Fence Gate 1.5
+tile.poplar_fence.name=Poplar Fence 1.5
+tile.mangrove_roots.name=Mangrove Roots 1.5 30
 tile.ladder.name=Ladder 1.5
 tile.crafting_table.name=Crafting Table 1.5
 tile.cartography_table.name=Cartography Table 1.5
@@ -247,7 +357,7 @@ tile.standing_banner.silver.name=Light Grey Banner 1.5
 tile.standing_banner.white.name=Banner 1.5
 tile.standing_banner.yellow.name=Yellow Banner 1.5
 item.fishing_rod.name=Fishing Rod 1.5
- 
+
 item.acacia_door.name=Acacia Door 1
 item.birch_door.name=Birch Door 1
 item.dark_oak_door.name=Dark Oak Door 1
@@ -258,6 +368,7 @@ item.mangrove_door.name=Mangrove Door 1
 item.bamboo_door.name=Bamboo Door 1
 item.cherry_door.name=Cherry Door 1
 item.pale_oak_door.name=Pale Oak Door 1
+item.poplar_door.name=Poplar Door 1
 item.sign.name=Oak Sign 1
 item.spruce_sign.name=Spruce Sign 1
 item.birch_sign.name=Birch Sign 1
@@ -268,6 +379,7 @@ item.mangrove_sign.name=Mangrove Sign 1
 item.bamboo_sign.name=Bamboo Sign 1
 item.cherry_sign.name=Cherry Sign 1
 item.pale_oak_sign.name=Pale Oak Sign 1
+item.poplar_sign.name=Poplar Sign 1
 item.acacia_hanging_sign.name=Acacia Hanging Sign 1
 item.bamboo_hanging_sign.name=Bamboo Hanging Sign 1
 item.birch_hanging_sign.name=Birch Hanging Sign 1
@@ -278,26 +390,42 @@ item.mangrove_hanging_sign.name=Mangrove Hanging Sign 1
 item.oak_hanging_sign.name=Oak Hanging Sign 1
 item.spruce_hanging_sign.name=Spruce Hanging Sign 1
 item.pale_oak_hanging_sign.name=Pale Oak Hanging Sign 1
+item.poplar_hanging_sign.name=Poplar Hanging Sign 1
+
+tile.acacia_shelf.name=Acacia Shelf 1.5
+tile.bamboo_shelf.name=Bamboo Shelf 1.5
+tile.birch_shelf.name=Birch Shelf 1.5
+tile.cherry_shelf.name=Cherry Shelf 1.5
+tile.dark_oak_shelf.name=Dark Oak Shelf 1.5
+tile.jungle_shelf.name=Jungle Shelf 1.5
+tile.mangrove_shelf.name=Mangrove Shelf 1.5
+tile.oak_shelf.name=Oak Shelf 1.5
+tile.spruce_shelf.name=Spruce Shelf 1.5
+tile.pale_oak_shelf.name=Pale Oak Shelf 1.5
+tile.poplar_shelf.name=Poplar Shelf 1.5
+
 item.bowl.name=Bowl 1
- 
-tile.sapling.acacia.name=Acacia Sapling 0.5
-tile.sapling.big_oak.name=Dark Oak Sapling 0.5
-tile.sapling.birch.name=Birch Sapling 0.5
-tile.sapling.jungle.name=Jungle Sapling 0.5
-tile.sapling.oak.name=Oak Sapling 0.5
-tile.sapling.spruce.name=Spruce Sapling 0.5
-tile.cherry_sapling.name=Cherry Sapling 0.5
-tile.pale_oak_sapling.name=Pale Oak Sapling 0.5
+
+tile.sapling.acacia.name=Acacia Sapling 0.5 30
+tile.sapling.big_oak.name=Dark Oak Sapling 0.5 30
+tile.sapling.birch.name=Birch Sapling 0.5 30
+tile.sapling.jungle.name=Jungle Sapling 0.5 30
+tile.sapling.oak.name=Oak Sapling 0.5 30
+tile.sapling.spruce.name=Spruce Sapling 0.5 30
+tile.mangrove_propagule.name=Mangrove Propagule 0.5 30
+tile.cherry_sapling.name=Cherry Sapling 0.5 30
+tile.pale_oak_sapling.name=Pale Oak Sapling 0.5 30
+tile.poplar_sapling.name=Poplar Sapling 0.5 30
 item.stick.name=Stick 0.5
 tile.deadbush.name=Dead Bush 0.5
-tile.azalea.name=Azalea 0.5
-tile.flowering_azalea.name=Flowering Azalea 0.5
- 
+tile.azalea.name=Azalea 0.5 65
+tile.flowering_azalea.name=Flowering Azalea 0.5 85
+
 tile.bamboo.name=Bamboo 0.25
 tile.scaffolding.name=Scaffolding 0.25
-tile.short_dry_grass.name=Short Dry Grass 0.5
-tile.tall_dry_grass.name=Tall Dry Grass 0.5
-tile.leaf_litter.name=Leaf Litter 0.5
+tile.short_dry_grass.name=Short Dry Grass 0.5 30
+tile.tall_dry_grass.name=Tall Dry Grass 0.5 30
+tile.leaf_litter.name=Leaf Litter 0.5 30
 
 
 
@@ -311,7 +439,7 @@ tile.lantern.name=Lantern 15
 tile.redstone_lamp.name=Redstone Lamp 15
 tile.respawn_anchor.name=Respawn Anchor 3/7/11/15
 tile.seaLantern.name=Sea Lantern 15
-tile.sea_pickle.name=Sea Pickle 6/9/12/15
+tile.sea_pickle.name=Sea Pickle 9/12/15 65
 tile.shroomlight.name=Shroomlight 15
 tile.end_rod.name=End Rod 14
 tile.torch.name=Torch 14
@@ -341,7 +469,7 @@ tile.soul_lantern.name=Soul Lantern 10
 tile.soul_torch.name=Soul Torch 10
 tile.enchanting_table.name=Enchanting Table 7
 tile.enderChest.name=Ender Chest 7
-tile.glow_lichen.name=Glow Lichen 7
+tile.glow_lichen.name=Glow Lichen 50
 tile.redstone_torch.name=Redstone Torch 7
 tile.amethyst_cluster.name=Amethyst Cluster 5
 tile.large_amethyst_bud.name=Large Amethyst Bud 4
@@ -477,7 +605,8 @@ item.record_creator.desc=Lena Raine - Creator 2:56
 item.record_creator_music_box.desc=Lena Raine - Creator (Music Box) 1:13
 item.record_precipice.desc=Aaron Cherof - Precipice 4:59
 item.record_tears.desc=Amos Roddy - Tears 2:55
-item.record_lava_chicken.desc=Hyper Potions - Lava Chicken  2:15
+item.record_lava_chicken.desc=Hyper Potions - Lava Chicken 2:15
+item.record_bounce.desc=fingerspit - Bounce 3:54
 
 
 
@@ -495,8 +624,8 @@ item.golden_nautilus_armor.name=Golden Nautilus Armour 3.5
 item.diamond_nautilus_armor.name=Diamond Nautilus Armour 5.5
 item.netherite_nautilus_armor.name=Netherite Nautilus Armour 9.5
 
- 
- 
+
+
 ## Armor and Tools
 item.leather_helmet.name=Leather Cap 0.5 56
 item.chainmail_helmet.name=Chainmail Helmet 1 166
@@ -525,7 +654,7 @@ item.netherite_leggings.name=Netherite Leggings 3 556
  
 item.leather_boots.name=Leather Boots 0.5 66
 item.chainmail_boots.name=Chainmail Boots 0.5 196
-
+item.copper_boots.name=Copper Boots 0.5 144
 item.iron_boots.name=Iron Boots 1 196
 item.golden_boots.name=Golden Boots 0.5 92
 item.diamond_boots.name=Diamond Boots 1.5 430
@@ -575,9 +704,9 @@ item.copper_hoe.name=Copper Hoe +3 191
 
 item.wooden_spear.name=Wooden Spear +1§b+§r 0.7x 0.65s 60
 item.stone_spear.name=Stone Spear +2§b+§r 0.82x 0.75s 132
-item.copper_spear.name=Copper Spear +2§b+§r  0.82x 0.85s 191
-item.iron_spear.name=Iron Spear +3§b+§r  0.95x 0.95s 251
-item.golden_spear.name=Golden Spear +1§b+§r  0.7x 0.95s 33
+item.copper_spear.name=Copper Spear +2§b+§r 0.82x 0.85s 191
+item.iron_spear.name=Iron Spear +3§b+§r 0.95x 0.95s 251
+item.golden_spear.name=Golden Spear +1§b+§r 0.7x 0.95s 33
 item.diamond_spear.name=Diamond Spear +4§b+§r 1.075x 1.05s 1562
 item.netherite_spear.name=Netherite Spear +5§b+§r 1.2x 1.15s 2032
 
@@ -734,6 +863,7 @@ item.spawn_egg.entity.nautilus.name=Nautilus Spawn Egg 15 HP 
 item.spawn_egg.entity.zombie_nautilus.name=Zombie Nautilus Spawn Egg 15 HP 
 item.spawn_egg.entity.parched.name=Parched Spawn Egg 16 HP 
 item.spawn_egg.entity.camel_husk.name=Camel Husk Spawn Egg 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Sulphur Cube Spawn Egg 8/4 HP 
 
 
 
@@ -1484,11 +1614,11 @@ item.fireworksCharge.purple= Purple
 item.fireworksCharge.red= Red
 item.fireworksCharge.silver= Light Grey
 item.fireworksCharge.trail= Trail
-item.fireworksCharge.type.0= Small Ball
-item.fireworksCharge.type.0= Small Ball
-item.fireworksCharge.type.1= Large Ball
-item.fireworksCharge.type.2= Star-shaped
-item.fireworksCharge.type.3= Creeper-shaped
-item.fireworksCharge.type.4= Burst
+item.fireworksCharge.type.0= Small ball explosion
+item.fireworksCharge.type.0= Small ball explosion
+item.fireworksCharge.type.1= Large ball explosion
+item.fireworksCharge.type.2= Star-shaped explosion
+item.fireworksCharge.type.3= Creeper-shaped explosion
+item.fireworksCharge.type.4= Burst explosion
 item.fireworksCharge.white= White
 item.fireworksCharge.yellow= Yellow

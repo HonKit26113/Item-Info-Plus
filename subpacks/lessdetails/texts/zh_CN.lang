@@ -1,9 +1,13 @@
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
 hungerpoints.packname=Item Info+
-hungerpoints.version=版本号 1.16.3
+hungerpoints.version=版本号 1.17
 hungerpoints.author=由 HonKit26113 创作
-hungerpoints.releasedate=发布日期 2026年1月31日
+hungerpoints.releasedate=发布日期 2026年10月10日
+
+howtoplay.test=Item Info+
+howtoplay.test.title=Item Info+信息
+menu.howToPlay=Item Info+信息与游戏说明
 
 hungerpoints.licence.space= 	#
 
@@ -24,6 +28,8 @@ hungerpoints.licence.legend_text7=§l工具、武器、装备上显示
 hungerpoints.licence.legend_text8= 工具或武器的攻击伤害。
 hungerpoints.licence.legend_text9= 锋利附魔带来的额外攻击伤害。
 hungerpoints.licence.legend_text10= 物品的最高耐久度。数值不会在使用工具后减少。
+hungerpoints.licence.legend_text10_1= 仅限长矛：攻击冷却时间。
+hungerpoints.licence.legend_text10_2= 仅限长矛：冲锋攻击伤害倍率。
 hungerpoints.licence.legend_text11=§l生怪蛋上显示
 hungerpoints.licence.legend_text12= 生物的最高生命值。
 hungerpoints.licence.legend_text13= 代表生物是敌对的。
@@ -92,18 +98,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33=
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§l新增内容与改变：
-hungerpoints.licence.text36= §l§e《铜器时代》支持：§r
-hungerpoints.licence.text37= 为所有铜制盔甲新增护甲值与最大耐久度图标。
-hungerpoints.licence.text38= 为所有铜制工具新增攻击伤害值与最大耐久度图标。
-hungerpoints.licence.text39= 为所有铜制灯笼类型新增亮度等级图标。
-hungerpoints.licence.text40= 为铜制火把新增亮度等级图标。
-hungerpoints.licence.text41= 为铜制傀儡生成蛋新增生命值与敌意图标。
-hungerpoints.licence.text42= §l§e《群骑纷争》支持：§r
-hungerpoints.licence.text42_1= 为所有长矛新增攻击伤害与最大耐久度图标。
-hungerpoints.licence.text42_2= 为所有种类鹦鹉螺盔甲新增护甲保护图标。
-hungerpoints.licence.text42_3= 为下界合金马铠新增护甲保护图标。
-hungerpoints.licence.text42_31= 新增戳刺附魔支持，并为部分适用附魔更新为新长矛图标。
-hungerpoints.licence.text42_32= 为鹦鹉螺、僵尸鹦鹉螺、枯萎生物和骆驼躯壳的生成蛋新增生命值与敌意图标。
+hungerpoints.licence.text36= §l§e《混沌立方》支持：§r
+hungerpoints.licence.text37= 已新增一个堆肥图标，用于显示堆肥箱堆肥等级升级的成功概率百分比。
+hungerpoints.licence.text38= 此图标将显示在可堆肥物品名称的旁边。
+hungerpoints.licence.text39= §l§e《奔赴荒野》支持：§r
+hungerpoints.licence.text40= 新增了关于杨木及其制品作为熔炉燃料的信息。
+hungerpoints.licence.text41= §l§e《混沌立方》支持：§r
+hungerpoints.licence.text42= 新增了“Bounce”音乐 CD 的播放时长信息。
+hungerpoints.licence.text42_1= §l§e其他变更：§r
+hungerpoints.licence.text42_2= 将 Item Info+ 设置页面移至“游戏教程”界面，因为新的矿石 UI 界面设置页面无法通过资源包进行修改
+hungerpoints.licence.text42_3=
+hungerpoints.licence.text42_31= 
+hungerpoints.licence.text42_32=
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -114,9 +120,9 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43= 	#
 
 hungerpoints.licence.text44=§l已修复 Bug：
-hungerpoints.licence.text44_1= 修正捷克语语言名称文件的错误。所有图标现应能正确显示在物品名称上！
-hungerpoints.licence.text44_2= 修正皮靴、锁链靴与黄金靴的防护值错误。
-hungerpoints.licence.text44_3= 将所有护甲与工具的耐久度值调整为基岩版的正确数值。
+hungerpoints.licence.text44_1= 铜靴现在会显示护甲值和耐久度信息。
+hungerpoints.licence.text44_2= 主世界的木架、红树林种子和浅色橡木现在会显示熔炉燃料信息。
+hungerpoints.licence.text44_3=
 hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
 hungerpoints.licence.text44_6= 
@@ -138,7 +144,6 @@ hungerpoints.licence.text10_1=特别感谢 §eNetherNinja ( @NetherNinja)§r 
 hungerpoints.licence.text11=§l提供协助：
 hungerpoints.licence.text11_1= 旗帜花纹图示的重新设计: §eChilRx ( @chilrx)§r
 hungerpoints.licence.text11_2= 越南语翻译: §ereal_tlgm ( @tlgm2308)§r
-hungerpoints.licence.text11_3= 游戏内转换语言功能: §ereal_tlgm ( @tlgm2308)§r
 
 
 
@@ -146,7 +151,7 @@ iteminfo.section_header5=使用条款
 iteminfo.section5_text1=你§a可以§r:
 iteminfo.section5_text2= 以§e私人使用§r为由更改此资源包.
 iteminfo.section5_text3= 在你不会对外公开发布的§e私人模组§r中加入这个资源包。你不可在对外公开的模组上加入此资源包。
-iteminfo.section5_text4= 使用这个资源包§e制作影片及媒体内容§r。
+iteminfo.section5_text4= 使用这个资源包§e制作影片及媒体内容§r，但你須分享此资源包在 §6honkit26113.com§r 或 §a MCPEDL§r 上的链结。
 iteminfo.section5_text5=你§4不可以§r:
 iteminfo.section5_text6= 以任何方式重新发布此资源包，或者直接分享此资源包的链结。请务必分享此资源包在 §6honkit26113.com§r 或 §a MCPEDL§r 上的链结。
 iteminfo.section5_text7= 利用这个资源包获取盈利。你的内容可能以版权为由被删除。

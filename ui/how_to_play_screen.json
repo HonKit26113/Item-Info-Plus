@@ -1,0 +1,51 @@
+{
+  "how_to_play_selector_stack_panel/how_to_play_selector_pane": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "test_button@how_to_play.test_button": {
+              "$toggle_group_forced_index": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "how_to_play_section_content_panels/general_tips_sections": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "test_section@how_to_play.test_section": {}
+          }
+        ]
+      }
+    ]
+  },
+  "how_to_play_selector_stack_panel/how_to_play_selector_pane/moving_around_button": {
+    "$toggle_group_forced_index": 255
+  },
+  "test_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "test"
+  },
+  "test_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "test_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "foodicon_section@foodicon_section.foodicon_section": {}
+      }
+    ]
+  }
+}

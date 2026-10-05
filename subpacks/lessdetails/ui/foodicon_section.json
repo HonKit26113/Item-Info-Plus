@@ -98,12 +98,12 @@
         "hunger_points_label52_1@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.legend_text3_1"
         }
-      },/*
+      },
         {
           "hunger_points_label53@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text4"
           }
-        },*/
+        },
         {
           "hunger_points_label53_1@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text4_1"
@@ -113,7 +113,7 @@
         "hunger_points_space4@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
         }
-      },/*
+      },
         {
         "hunger_points_label53_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.legend_text5"
@@ -122,6 +122,11 @@
         {
           "hunger_points_label54@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text6"
+          }
+        },
+        {
+          "hunger_points_label54_2@how_to_play_common.paragraph": {
+            "$text": "hungerpoints.licence.legend_text6_1"
           }
         },
         {
@@ -147,6 +152,16 @@
       {
         "hunger_points_label57_1@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.legend_text10"
+        }
+      },
+      {
+        "hunger_points_label57_2@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text10_1"
+        }
+      },
+      {
+        "hunger_points_label57_3@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text10_2"
         }
       },
       {
@@ -186,6 +201,21 @@
         },
       {
         "hunger_points_space7@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.space"
+        }
+      },
+        {
+          "hunger_points_label61_3@how_to_play_common.paragraph": {
+            "$text": "hungerpoints.licence.legend_text15_2"
+          }
+        },
+        {
+          "hunger_points_label61_4@how_to_play_common.paragraph": {
+            "$text": "hungerpoints.licence.legend_text15_3"
+          }
+        },
+      {
+        "hunger_points_space7_1@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
         }
       },
@@ -345,6 +375,11 @@
           }
         },
         {
+          "hunger_points_label74_1@how_to_play_common.paragraph": {
+            "$text": "hungerpoints.licence.legend_text29_1"
+          }
+        },
+        {
           "hunger_points_label75@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text30"
           }
@@ -365,6 +400,11 @@
           }
         },
         {
+          "hunger_points_label77_2@how_to_play_common.paragraph": {
+            "$text": "hungerpoints.licence.legend_text32_2"
+          }
+        },
+        {
           "hunger_points_label78@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text33"
           }
@@ -373,7 +413,7 @@
           "hunger_points_label79@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.legend_text34"
           }
-        },*/
+        },
       {
         "hunger_points_space12@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
@@ -580,7 +620,7 @@
         "hunger_points_label39@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text39"
         }
-      },
+      },/*
       {
         "hunger_points_label40@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text40"
@@ -590,7 +630,7 @@
         "hunger_points_label41@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text41"
         }
-      }, 
+      },
       {
         "hunger_points_label42@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text42"
@@ -610,7 +650,7 @@
           "hunger_points_label42_3@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.text42_3"
           }
-        },
+        }, 
         {
           "hunger_points_label42_31@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.text42_31"
@@ -656,7 +696,7 @@
             "$text": "hungerpoints.licence.text42_5"
           }
         },*/ 
-      {
+      /*{
         "hunger_points_space17_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
         }
@@ -727,58 +767,6 @@
         }
       },
 
-      // credits
-      {
-        "hunger_points_credits_header@how_to_play_common.header": {
-          "$text": "hungerpoints.licence.credits_header"
-        }
-      },
-      {
-        "hunger_points_label10@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text10"
-        }
-      },
-      {
-        "hunger_points_space20@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.space"
-        }
-      },
-      {
-        "hunger_points_label10_1@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text10_1"
-        }
-      },
-      {
-        "hunger_points_space20_1@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.space"
-        }
-      },
-      {
-        "hunger_points_label11@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text11"
-        }
-      },
-      {
-        "hunger_points_label11_1@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text11_1"
-        }
-      },
-      {
-        "hunger_points_label11_2@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text11_2"
-        }
-      },
-      {
-        "hunger_points_label11_3@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text11_3"
-        }
-      },
-      {
-        "hunger_points_space21@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.space"
-        }
-      },
-
       // terms of use
       {
         "iteminfo.section_header5@how_to_play_common.header": {
@@ -825,6 +813,55 @@
           "$text": "iteminfo.section5_text7"
         }
       },
+      {
+        "hunger_points_space21@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.space"
+        }
+      },
+
+      // credits
+      {
+        "hunger_points_credits_header@how_to_play_common.header": {
+          "$text": "hungerpoints.licence.credits_header"
+        }
+      },
+      {
+        "hunger_points_label10@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text10"
+        }
+      },
+      {
+        "hunger_points_space20@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.space"
+        }
+      },
+      {
+        "hunger_points_label10_1@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text10_1"
+        }
+      },
+      {
+        "hunger_points_space20_1@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.space"
+        }
+      },
+      {
+        "hunger_points_label11@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text11"
+        }
+      },
+      {
+        "hunger_points_label11_1@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text11_1"
+        }
+      },
+      {
+        "hunger_points_label11_2@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text11_2"
+        }
+      },
+
+      
 
       // page end spacer
       {

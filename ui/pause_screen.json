@@ -1,0 +1,31 @@
+{
+  "namespace": "pause",
+  "hungerpoints_icon": {
+    "type": "image",
+    "texture": "textures/ui/pause_screen_icon",
+    "layer": 3,
+    "size": [
+      56,
+      32
+    ]
+  },
+  
+  "how_to_play_button_small@common_buttons.light_content_button": {
+    "$pressed_button_name": "button.menu_how_to_play",
+    "$focus_id": "icon_panel_main_focus",
+    "focus_change_down": "return_to_game",
+    "$button_tts_header": "menu.howToPlay",
+    "size": [ 64, 24 ],
+    "$button_content": "pause.hungerpoints_icon",
+    "$pressed_alpha": 0.65
+  },
+
+  "how_to_play_button_small_with_tooltip": {
+    "type": "panel",
+    "size": [ 64, 24 ],
+    "controls": [
+      { "button@pause.how_to_play_button_small": {} },
+      { "tooltip_trigger@pause.icon_button_tooltip_trigger": { "$tooltip_text": "menu.howToPlay" } }
+    ]
+  }
+}

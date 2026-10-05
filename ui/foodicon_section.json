@@ -204,18 +204,33 @@
           "$text": "hungerpoints.licence.space"
         }
       },
-        {
-          "hunger_points_label61_3@how_to_play_common.paragraph": {
-            "$text": "hungerpoints.licence.legend_text15_2"
-          }
-        },
-        {
-          "hunger_points_label61_4@how_to_play_common.paragraph": {
-            "$text": "hungerpoints.licence.legend_text15_3"
-          }
-        },
+      {
+        "hunger_points_label61_3@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text15_2"
+        }
+      },
+      {
+        "hunger_points_label61_4@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text15_3"
+        }
+      },
       {
         "hunger_points_space7_1@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.space"
+        }
+      },
+      {
+        "hunger_points_label61_5@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text15_4"
+        }
+      },
+      {
+        "hunger_points_label61_6@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.legend_text15_5"
+        }
+      },
+      {
+        "hunger_points_space7_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.space"
         }
       },
@@ -641,11 +656,11 @@
           "$text": "hungerpoints.licence.text42_1"
         }
       },
-        {
-          "hunger_points_label42_2@how_to_play_common.paragraph": {
-            "$text": "hungerpoints.licence.text42_2"
-          }
-        },
+      {
+        "hunger_points_label42_2@how_to_play_common.paragraph": {
+          "$text": "hungerpoints.licence.text42_2"
+        }
+      },/*
         {
           "hunger_points_label42_3@how_to_play_common.paragraph": {
             "$text": "hungerpoints.licence.text42_3"
@@ -715,7 +730,7 @@
         "hunger_points_label44_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_2"
         }
-      },
+      },/*
       {
         "hunger_points_label44_3@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text44_3"
@@ -858,11 +873,6 @@
       {
         "hunger_points_label11_2@how_to_play_common.paragraph": {
           "$text": "hungerpoints.licence.text11_2"
-        }
-      },
-      {
-        "hunger_points_label11_3@how_to_play_common.paragraph": {
-          "$text": "hungerpoints.licence.text11_3"
         }
       },
 

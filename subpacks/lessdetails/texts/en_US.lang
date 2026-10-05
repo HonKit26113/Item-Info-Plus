@@ -1,13 +1,14 @@
 ## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
 
 
-## This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
-
-
 hungerpoints.packname=Item Info+
-hungerpoints.version=Version 1.16.3
+hungerpoints.version=Version 1.16.4
 hungerpoints.author=Pack made by HonKit26113
-hungerpoints.releasedate=Released January 31, 2026
+hungerpoints.releasedate=Released May 8, 2026
+
+howtoplay.test=Item Info+
+howtoplay.test.title=Item Info+ Information
+menu.howToPlay=Item Info+ docs & How to Play
 
 hungerpoints.licence.space= 	#
 
@@ -29,7 +30,7 @@ hungerpoints.licence.legend_text8= Amount of Attack Damage the tool deals whe
 hungerpoints.licence.legend_text9= Additional Attack Damage from Sharpness. Sharpness I-V adds 1, 2, 3, 5, 6 respectively.
 hungerpoints.licence.legend_text10= Maximum Durability of the item. Value does not decrease after use.
 hungerpoints.licence.legend_text10_1= Spears only: Attack cooldown.
-hungerpoints.licence.legend_text10_2= Spears only: Charge attack damage multiplier.
+hungerpoints.licence.legend_text10_2= Spears only: Charge attack damage multiplier.
 hungerpoints.licence.legend_text11=§lShown on Spawn Eggs
 hungerpoints.licence.legend_text12= Amount of Health Points the mob has.
 hungerpoints.licence.legend_text13= This means the mob is Hostile.
@@ -100,18 +101,18 @@ hungerpoints.licence.text32=
 hungerpoints.licence.text33= 
 hungerpoints.licence.text34=
 hungerpoints.licence.text35=§lNew Additions and Changes:
-hungerpoints.licence.text36= §l§eCopper Age Support:§r
-hungerpoints.licence.text37= Added armor protection and max durability icons for all Copper Armor.
-hungerpoints.licence.text38= Added attack damage and max durability icons for all Copper Tools.
-hungerpoints.licence.text39= Added light level icons for all types of Copper Lantern.
-hungerpoints.licence.text40= Added a light level icon for the Copper Torch. 
-hungerpoints.licence.text41= Added HP and hostility icons for the Copper Golem spawn egg.
-hungerpoints.licence.text42= §l§eMounts of Mayhem Support:§r
-hungerpoints.licence.text42_1= Added attack damage and max durability icons for all Spears.
-hungerpoints.licence.text42_2= Added armor protection icons for all types of Nautilus Armor.
-hungerpoints.licence.text42_3= Added an armor protection icon for Netherite Horse Armor.
-hungerpoints.licence.text42_31= Added support for the Lunge enchantment and updated some applicable enchantments with a new spear icon.
-hungerpoints.licence.text42_32= Added HP and hostility icons for the Nautilus, Zombie Nautilus, Parched, and Camel Husk spawn eggs.
+hungerpoints.licence.text36= §l§eChaos Cubed Support:§r
+hungerpoints.licence.text37= Added HP and hostility icons for the Sulfur Cube spawn egg.
+hungerpoints.licence.text38= §l§eOther Changes:§r
+hungerpoints.licence.text39= Moved the Item Info+ settings page to the How To Play screen. The new Ore UI settings page cannot be modified by resource packs.
+hungerpoints.licence.text40=
+hungerpoints.licence.text41=
+hungerpoints.licence.text42=
+hungerpoints.licence.text42_1=
+hungerpoints.licence.text42_2=
+hungerpoints.licence.text42_3=
+hungerpoints.licence.text42_31=
+hungerpoints.licence.text42_32=
 hungerpoints.licence.text42_33= 
 hungerpoints.licence.text42_34= 
 hungerpoints.licence.text42_35= 
@@ -122,9 +123,9 @@ hungerpoints.licence.text42_5=§lBeta Changes and Additions - these features are
 hungerpoints.licence.text43=
 
 hungerpoints.licence.text44=§lBug Fixes:
-hungerpoints.licence.text44_1= Fixed incorrect language name file for Czech (Czechia). All icons should now correctly display on item names!
-hungerpoints.licence.text44_2= Fixed incorrect protection values of Leather, Chain and Golden Boots.
-hungerpoints.licence.text44_3= Changed durability values of all armor and tools to correct values for Bedrock Edition.
+hungerpoints.licence.text44_1= 
+hungerpoints.licence.text44_2=
+hungerpoints.licence.text44_3=
 hungerpoints.licence.text44_4= 
 hungerpoints.licence.text44_5= 
 hungerpoints.licence.text44_6= 
@@ -146,7 +147,6 @@ hungerpoints.licence.text10_1=Special thanks to §eNetherNinja ( @NetherNinja
 hungerpoints.licence.text11=§lPack Contributions:
 hungerpoints.licence.text11_1= New Banner Pattern Icon Designs: §eChilRx ( @chilrx)§r
 hungerpoints.licence.text11_2= Vietnamese Translation: §ereal_tlgm ( @tlgm2308)§r
-hungerpoints.licence.text11_3= In-game Language Setting: §ereal_tlgm ( @tlgm2308)§r
 
 
 
@@ -158,7 +158,6 @@ iteminfo.section5_text4= §eMake videos & media content§r with the pack.
 iteminfo.section5_text5=You are §4NOT allowed§r to:
 iteminfo.section5_text6= Distribute the pack using a new download link, or share the direct download link. Always share the link to §a MCPEDL§r or §6honkit26113.com§r
 iteminfo.section5_text7= Monetize the pack download. Doing so could result in a copyright takedown.
-
 
 
 item.apple.name=Apple 	#

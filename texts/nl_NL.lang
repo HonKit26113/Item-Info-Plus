@@ -2,13 +2,13 @@
 
 
 ## Food Items
-item.apple.name=Appel 2 1,2 1,6 s
-item.baked_potato.name=Gebakken aardappel 2,5 3 1,6 s
-item.beetroot.name=Biet 0,5 0,6 1,6 s
+item.apple.name=Appel 2 1,2 1,6 s 65
+item.baked_potato.name=Gebakken aardappel 2,5 3 1,6 s 85
+item.beetroot.name=Biet 0,5 0,6 1,6 s 65
 item.beetroot_soup.name=Bietensoep 3 3,6 1,6 s
-item.bread.name=Brood 2,5 3 1,6 s
-item.cake.name=Taart 7 1,4 0 s
-item.carrot.name=Wortel 1,5 1,8 1,6 s
+item.bread.name=Brood 2,5 3 1,6 s 85
+item.cake.name=Taart 7 1,4 0 s 100
+item.carrot.name=Wortel 1,5 1,8 1,6 s 65
 item.chorus_fruit.name=Koorfruit 2 1,2 1,6 s
 item.cooked_beef.name=Steak 4 6,4 1,6 s
 item.cooked_chicken.name=Gebakken kip 3 3,6 1,6 s
@@ -17,18 +17,18 @@ item.muttonCooked.name=Gebakken schapenvlees 3 4,8 1,6 s
 item.cooked_porkchop.name=Gebakken karbonade 4 6,4 1,6 s
 item.cooked_rabbit.name=Gebakken konijn 2,5 3 1,6 s
 item.cooked_salmon.name=Gebakken zalm 3 4,8 1,6 s
-item.cookie.name=Koekje 1 0,2 1,6 s
-item.dried_kelp.name=Gedroogde kelp 0,5 0,1 0,8 s 
+item.cookie.name=Koekje 1 0,2 1,6 s 85
+item.dried_kelp.name=Gedroogde kelp 0,5 0,1 0,8 s 30
 item.appleEnchanted.name=Betoverde gouden appel 2 4,8 1,6 s
 item.golden_apple.name=Gouden appel 2 4,8 1,6 s
 item.golden_carrot.name=Gouden wortel 3 7,2 1,6 s
 item.honey_bottle.name=Fles honing 3 0,6 2 s
-item.melon.name=Meloenschijf 1 0,6 1,6 s
+item.melon.name=Meloenschijf 1 0,6 1,6 s 50
 item.mushroom_stew.name=Paddenstoelenstoofschotel 3 3,6 1,6 s
 item.poisonous_potato.name=Giftige aardappel 1 0,6 1,6 s 
-item.potato.name=Aardappel 0,5 0,3 1,6 s
+item.potato.name=Aardappel 0,5 0,3 1,6 s 65
 item.pufferfish.name=Kogelvis 0,5 0,1 1,6 s 
-item.pumpkin_pie.name=Pompoentaart 4 2,4 1,6 s
+item.pumpkin_pie.name=Pompoentaart 4 2,4 1,6 s 100
 item.rabbit_stew.name=Konijnenstoofschotel 5 6 1,6 s
 item.beef.name=Rauwe biefstuk 1,5 0,9 1,6 s
 item.chicken.name=Rauwe kip 1 0,6 1,6 s 
@@ -40,20 +40,117 @@ item.salmon.name=Rauwe zalm 1 0,2 1,6 s
 item.rotten_flesh.name=Bedorven vlees 2 0,4 1,6 s 
 item.spider_eye.name=Spinnenoog 1 1,6 1,6 s 
 item.suspicious_stew.name=Schimmige stoofschotel 3 ? 1,6 s
-item.sweet_berries.name=Zoete bessen 1 0,6 1,6 s
+item.sweet_berries.name=Zoete bessen 1 0,6 1,6 s 30
 item.clownfish.name=Tropische vis 0,5 0,1 1,6 s
-item.glow_berries.name=Gloeibessen 1 0,2 1,6 s 14
+item.glow_berries.name=Gloeibessen 1 0,2 1,6 s 14 30
  
  
  
+## Compost
+item.beetroot_seeds.name=Bietenzaden 30
+tile.bush.name=Struik 30
+tile.cactus_flower.name=Cactusbloem 30
+tile.grass.name=Grasblok 30
+tile.hanging_roots.name=Hangende wortelen 30
+item.kelp.name=Kelp 30
+item.melon_seeds.name=Meloenzaden 30
+tile.moss_carpet.name=Mostapijt 30
+tile.pale_hanging_moss.name=Vaal hangend mos 30
+tile.pale_moss_carpet.name=Vaal mostapijt 30
+tile.pink_petals.name=Roze bloemblaadjes 30
+item.pitcher_pod.name=Kruikplantpeul 30
+item.pumpkin_seeds.name=Pompoenzaden 30
+tile.red_shrub.name=Rode struik 30
+tile.seagrass.seagrass.name=Zeegras 30
+tile.tallgrass.grass.name=Kort gras 30
+tile.small_dripleaf_block.name=Klein druipblad 30
+item.torchflower_seeds.name=Fakkelbloemzaden 30
+item.wheat_seeds.name=Tarwezaden 30
+tile.wildflowers.name=Wilde bloemen 30
+tile.leaves.acacia.name=Acaciabladeren 30
+tile.leaves.big_oak.name=Donkereikenbladeren 30
+tile.leaves.birch.name=Berkenbladeren 30
+tile.leaves.jungle.name=Junglebladeren 30
+tile.leaves.oak.name=Eikenbladeren 30
+tile.leaves.spruce.name=Sparrenbladeren 30
+tile.azalea_leaves.name=Rododendronbladeren 30
+tile.mangrove_leaves.name=Mangrovebladeren 30
+tile.cherry_leaves.name=Kersenbladeren 30
+tile.pale_oak_leaves.name=Vale eiken bladeren 30
+tile.red_poplar_leaves.name=Rode populierbladeren 30
+tile.orange_poplar_leaves.name=Oranje populierbladeren 30
+tile.yellow_poplar_leaves.name=Gele populierbladeren 30
+
+tile.cactus.name=Cactus 50
+tile.nether_sprouts.name=Netherspruit 50
+item.reeds.name=Suikerriet 50
+tile.double_plant.grass.name=Hoog gras 50
+tile.twisting_vines.name=Kronkelranken 50
+tile.vine.name=Ranken 50
+tile.weeping_vines.name=Treurranken 50
+tile.azalea_leaves_flowered.name=Bloeiende azaleabladeren 50
+
+tile.big_dripleaf.name=Groot druipblad 65
+tile.brown_mushroom.name=Bruine paddenstoel 65
+tile.carved_pumpkin.name=Uitgesneden pompoen 65
+item.dye.brown.name=Cacaobonen 65
+tile.crimson_roots.crimsonRoots.name=Karmijnrode wortelen 65
+tile.tallgrass.fern.name=Varen 65
+tile.yellow_flower.dandelion.name=Paardenbloem 65
+tile.red_flower.poppy.name=Klaproos 65
+tile.red_flower.blueOrchid.name=Blauwe orchidee 65
+tile.red_flower.allium.name=Look 65
+tile.red_flower.houstonia.name=Porseleinsterretje 65
+tile.red_flower.tulipRed.name=Rode tulp 65
+tile.red_flower.tulipOrange.name=Oranje tulp 65
+tile.red_flower.tulipWhite.name=Witte tulp 65
+tile.red_flower.tulipPink.name=Roze tulp 65
+tile.red_flower.oxeyeDaisy.name=Madeliefje 65
+tile.red_flower.cornflower.name=Korenbloem 65
+tile.red_flower.lilyOfTheValley.name=Lelietje-van-dalen 65
+tile.wither_rose.name=Wither-roos 65
+tile.double_plant.sunflower.name=Zonnebloem 65
+tile.double_plant.syringa.name=Sering 65
+tile.double_plant.rose.name=Rozenstruik 65
+tile.double_plant.paeonia.name=Pioenroos 65
+tile.closed_eyeblossom.name=Gesloten oogbloesem 65
+tile.open_eyeblossom.name=Open oogbloesem 65
+tile.golden_dandelion.name=Gouden paardenbloem 65
+tile.double_plant.fern.name=Grote varen 65
+tile.waterlily.name=Plompenblad 65
+tile.melon_block.name=Meloen 65
+tile.moss_block.name=Mosblok 65
+tile.brown_mushroom_block.stem.name=Paddenstoelenstam 65
+tile.crimson_fungus.name=Karmijnrode schimmel 65
+tile.warped_fungus.name=Warblauwe schimmel 65
+item.nether_wart.name=Nether-kruid 65
+tile.pale_moss_block.name=Vaal mosblok 65
+tile.pumpkin.name=Pompoen 65
+tile.red_mushroom.name=Rode paddenstoel 65
+tile.shelf_mushroom.name=Springplankzwam 65
+tile.spore_blossom.name=Zwambloesem 65
+tile.straw_bed.name=Strobed 65
+tile.warped_roots.warpedRoots.name=Warblauwe wortelen 65
+item.wheat.name=Tarwe 65
+
+tile.hay_block.name=Hooibaal 85
+tile.brown_mushroom_block.cap.name=Bruin paddenstoelblok 85
+tile.red_mushroom_block.name=Rode-paddenstoelblok 85
+tile.nether_wart_block.name=Nether-kruidblok 85
+tile.pitcher_plant.name=Kruikplant 85
+tile.torchflower.name=Fakkelbloem 85
+tile.warped_wart_block.name=Warblauw kruidblok 85
+
+
+
 ## Furnace Fuel
 item.bucketLava.name=Lava-emmer 100
 tile.coal_block.name=Steenkoolblok 80
-tile.dried_kelp_block.name=Gedroogde-kelpblok 20
+tile.dried_kelp_block.name=Gedroogde-kelpblok 20 50
 item.blaze_rod.name=Blaze-staaf 12
 item.coal.name=Steenkool 8
 item.charcoal.name=Houtskool 8
- 
+
 item.boat.oak.name=Eiken boot 6
 item.boat.spruce.name=Sparren boot 6
 item.boat.birch.name=Berken boot 6
@@ -74,7 +171,8 @@ item.chest_boat.mangrove.name=Mangrovehouten boot met kist 6
 item.chest_boat.bamboo.name=Bamboevlot met kist 6
 item.chest_boat.cherry.name=Kersenboot met kist 6
 item.chest_boat.pale_oak.name=Vale eiken boot met kist 6
- 
+item.chest_boat.poplar.name=Populieren boot met kist 6
+
 tile.bamboo_mosaic_slab.name=Bamboe mozaïekplaat 1,5
 tile.bamboo_mosaic_stairs.name=Bamboemozaïek trap 1,5
 tile.bamboo_mosaic.name=Bamboemozaïek 1,5
@@ -93,6 +191,7 @@ tile.log.spruce.name=Sparren stronk 1,5
 tile.mangrove_log.name=Mangrovestronk 1,5
 tile.cherry_log.name=Kersenstronk 1,5
 tile.pale_oak_log.name=Vale eiken stronk 1,5
+tile.poplar_log.name=Populieren stronk 1,5
 tile.stripped_spruce_log.name=Geschaafde sparren stronk 1,5
 tile.stripped_dark_oak_log.name=Geschaafde donkereiken stronk 1,5
 tile.stripped_birch_log.name=Geschaafde berken stronk 1,5
@@ -102,6 +201,7 @@ tile.stripped_acacia_log.name=Geschaafde acacia stronk 1,5
 tile.stripped_mangrove_log.name=Geschaafde mangrovestronk 1,5
 tile.stripped_cherry_log.name=Geschaafde kersenstronk 1,5
 tile.stripped_pale_oak_log.name=Geschaafde vale eiken stronk 1,5
+tile.stripped_poplar_log.name=Geschaafde populieren stronk 1,5
 tile.wood.oak.name=Eikenhout 1,5
 tile.wood.spruce.name=Sparrenhout 1,5
 tile.wood.birch.name=Berkenhout 1,5
@@ -110,6 +210,8 @@ tile.wood.acacia.name=Acaciahout 1,5
 tile.wood.dark_oak.name=Donker eikenhout 1,5
 tile.mangrove_wood.name=Mangrovehout 1,5
 tile.cherry_wood.name=Kersenhout 1,5
+tile.pale_oak_wood.name=Vaal eikenhout 1,5
+tile.poplar_wood.name=Populierenhout 1,5
 tile.wood.stripped.oak.name=Geschaafd eikenhout 1,5
 tile.wood.stripped.spruce.name=Geschaafd sparrenhout 1,5
 tile.wood.stripped.birch.name=Geschaafd berkenhout 1,5
@@ -119,6 +221,7 @@ tile.wood.stripped.dark_oak.name=Geschaafd donker eikenhout 1,5
 tile.stripped_mangrove_wood.name=Geschaafd mangrovehout 1,5
 tile.stripped_cherry_wood.name=Geschaafd kersenhout 1,5
 tile.stripped_pale_oak_wood.name=Geschaafd vaal eikenhout 1,5
+tile.stripped_poplar_wood.name=Geschaafd populierenhout 1,5
 tile.planks.acacia.name=Acacia planken 1,5
 tile.planks.big_oak.name=Donkereiken planken 1,5
 tile.planks.birch.name=Berken planken 1,5
@@ -130,6 +233,8 @@ tile.mangrove_planks.name=Mangrovehouten planken 1,5
 tile.bamboo_planks.name=Bamboeplanken 1,5
 tile.cherry_planks.name=Kersenplanken 1,5
 tile.pale_oak_planks.name=Vale eiken planken 1,5
+tile.poplar_planks.name=Populieren planken 1,5
+
 tile.wooden_slab.oak.name=Eiken plaat 1,5
 tile.wooden_slab.spruce.name=Vuren plaat 1,5
 tile.wooden_slab.acacia.name=Acacia plaat 1,5
@@ -140,6 +245,7 @@ tile.mangrove_slab.name=Mangrovehouten plaat 1,5
 tile.bamboo_slab.name=Bamboeplaat 1,5
 tile.cherry_slab.name=Kersenplaat 1,5
 tile.pale_oak_slab.name=Vale eiken plaat 1,5
+tile.poplar_slab.name=Populieren plaat 1,5
 tile.oak_stairs.name=Eiken trap 1,5
 tile.acacia_stairs.name=Acacia trap 1,5
 tile.birch_stairs.name=Berken trap 1,5
@@ -150,6 +256,7 @@ tile.mangrove_stairs.name=Mangrovehouten trap 1,5
 tile.bamboo_stairs.name=Bamboetrap 1,5
 tile.cherry_stairs.name=Kersentrap 1,5
 tile.pale_oak_stairs.name=Vale eiken trap 1,5
+tile.poplar_stairs.name=Populieren trap 1,5
 tile.wooden_pressure_plate.name=Eiken drukplaat 1,5
 tile.acacia_pressure_plate.name=Acaciahouten drukplaat 1,5
 tile.birch_pressure_plate.name=Berken drukplaat 1,5
@@ -159,6 +266,7 @@ tile.spruce_pressure_plate.name=Sparhouten drukplaat 1,5
 tile.bamboo_pressure_plate.name=Bamboe drukplaat 1,5
 tile.cherry_pressure_plate.name=Kersendrukplaat 1,5
 tile.pale_oak_pressure_plate.name=Vale eiken drukplaat 1,5
+tile.poplar_pressure_plate.name=Populieren drukplaat 1,5
 tile.wooden_button.name=Eiken knop 1,5
 tile.spruce_button.name=Sparhouten knop 1,5
 tile.acacia_button.name=Acaciaknop 1,5
@@ -169,6 +277,7 @@ tile.mangrove_button.name=Mangrovehouten knop 1,5
 tile.bamboo_button.name=Bamboeknop 1,5
 tile.cherry_button.name=Kersenknop 1,5
 tile.pale_oak_button.name=Vale eiken knop 1,5
+tile.poplar_button.name=Populieren knop 1,5
 tile.trapdoor.name=Eiken valluik 1,5
 tile.acacia_trapdoor.name=Acaciahouten valluik 1,5
 tile.birch_trapdoor.name=Berken valluik 1,5
@@ -179,6 +288,7 @@ tile.mangrove_trapdoor.name=Mangrovehouten valluik 1,5
 tile.bamboo_trapdoor.name=Bamboe valluik 1,5
 tile.cherry_trapdoor.name=Kersenvalluik 1,5
 tile.pale_oak_trapdoor.name=Vaal eiken valluik 1,5
+tile.poplar_trapdoor.name=Populieren valluik 1,5
 tile.fence.name=Eiken hek 1,5
 tile.fence_gate.name=Eiken poortje 1,5
 tile.spruceFence.name=Sparren hek 1,5
@@ -199,7 +309,9 @@ tile.cherry_fence_gate.name=Kersen hekpoortje 1,5
 tile.cherry_fence.name=Kersenhek 1,5
 tile.pale_oak_fence_gate.name=Vaal eiken hekpoortje 1,5
 tile.pale_oak_fence.name=Vaal eiken hek 1,5
-tile.mangrove_roots.name=Mangrovewortels 1,5
+tile.poplar_fence_gate.name=Populieren hekpoortje 1,5
+tile.poplar_fence.name=Populieren hek 1,5
+tile.mangrove_roots.name=Mangrovewortels 1,5 30
 tile.ladder.name=Ladder 1,5
 tile.crafting_table.name=Werkbank 1,5
 tile.cartography_table.name=Kaartenwerkbank 1,5
@@ -233,7 +345,7 @@ tile.standing_banner.silver.name=Lichtgrijze vlag 1,5
 tile.standing_banner.white.name=Vlag 1,5
 tile.standing_banner.yellow.name=Gele vlag 1,5
 item.fishing_rod.name=Vishengel 1,5
- 
+
 item.acacia_door.name=Acacia deur 1
 item.birch_door.name=Berken deur 1
 item.dark_oak_door.name=Donkereiken deur 1
@@ -244,6 +356,7 @@ item.mangrove_door.name=Mangrovehouten deur 1
 item.bamboo_door.name=Bamboedeur 1
 item.cherry_door.name=Kersendeur 1
 item.pale_oak_door.name=Vale eiken deur 1
+item.poplar_door.name=Populieren deur 1
 item.sign.name=Eiken bord 1
 item.spruce_sign.name=Sparren bord 1
 item.birch_sign.name=Berken bord 1
@@ -254,6 +367,7 @@ item.mangrove_sign.name=Mangrovehouten bord 1
 item.bamboo_sign.name=Bamboebordje 1
 item.cherry_sign.name=Kersen bord 1
 item.pale_oak_sign.name=Vaal eiken bord 1
+item.poplar_sign.name=Populieren bord 1
 item.acacia_hanging_sign.name=Acacia hangbordje 1
 item.bamboo_hanging_sign.name=Bamboe hangbordje 1
 item.birch_hanging_sign.name=Berken hangbordje 1
@@ -264,26 +378,42 @@ item.mangrove_hanging_sign.name=Mangrove hangbordje 1
 item.oak_hanging_sign.name=Eiken hangbordje 1
 item.spruce_hanging_sign.name=Sparren hangbordje 1
 item.pale_oak_hanging_sign.name=Vaal eiken hangbordje 1
+item.poplar_hanging_sign.name=Populieren hangbordje 1
+
+tile.acacia_shelf.name=Acacia schap 1,5
+tile.bamboo_shelf.name=Bamboe schap 1,5
+tile.birch_shelf.name=Berken schap 1,5
+tile.cherry_shelf.name=Kersen schap 1,5
+tile.dark_oak_shelf.name=Donkereiken schap 1,5
+tile.jungle_shelf.name=Jungle schap 1,5
+tile.mangrove_shelf.name=Mangrovehouten schap 1,5
+tile.oak_shelf.name=Eiken schap 1,5
+tile.spruce_shelf.name=Sparren schap 1,5
+tile.pale_oak_shelf.name=Lichteiken schap 1,5
+tile.poplar_shelf.name=Populieren schap 1,5
+
 item.bowl.name=Kom 1
- 
-tile.sapling.acacia.name=Jonge acacia 0,5
-tile.sapling.big_oak.name=Donkere jonge eik 0,5
-tile.sapling.birch.name=Jonge berk 0,5
-tile.sapling.jungle.name=Jonge jungleboom 0,5
-tile.sapling.oak.name=Jonge eik 0,5
-tile.sapling.spruce.name=Jonge spar 0,5
-tile.cherry_sapling.name=Jong kersenboompje 0,5
-tile.pale_oak_sapling.name=Vale jonge eik 0,5
+
+tile.sapling.acacia.name=Jonge acacia 0,5 30
+tile.sapling.big_oak.name=Donkere jonge eik 0,5 30
+tile.sapling.birch.name=Jonge berk 0,5 30
+tile.sapling.jungle.name=Jonge jungleboom 0,5 30
+tile.sapling.oak.name=Jonge eik 0,5 30
+tile.sapling.spruce.name=Jonge spar 0,5 30
+tile.mangrove_propagule.name=Mangrovebroedknop 0,5 30
+tile.cherry_sapling.name=Jong kersenboompje 0,5 30
+tile.pale_oak_sapling.name=Vale jonge eik 0,5 30
+tile.poplar_sapling.name=Jong populierboompje 0,5 30
 item.stick.name=Stok 0,5
 tile.deadbush.name=Dode struik 0,5
-tile.azalea.name=Rododendron 0,5
-tile.flowering_azalea.name=Bloeiende rododendron 0,5
- 
+tile.azalea.name=Rododendron 0,5 65
+tile.flowering_azalea.name=Bloeiende rododendron 0,5 85
+
 tile.bamboo.name=Bamboe 0,25
 tile.scaffolding.name=Steiger 0,25
-tile.short_dry_grass.name=Kort droog gras 0,5
-tile.tall_dry_grass.name=Lang droog gras 0,5
-tile.leaf_litter.name=Bladafval 0,5
+tile.short_dry_grass.name=Kort droog gras 0,5 30
+tile.tall_dry_grass.name=Lang droog gras 0,5 30
+tile.leaf_litter.name=Bladafval 0,5 30
 
 
 
@@ -297,7 +427,7 @@ tile.lantern.name=Lantaarn 15
 tile.redstone_lamp.name=Redstone-lamp 15
 tile.respawn_anchor.name=Respawnanker 3/7/11/15
 tile.seaLantern.name=Zeelantaarn 15
-tile.sea_pickle.name=Zeekomkommer 6/9/12/15
+tile.sea_pickle.name=Zeekomkommer 9/12/15 65
 tile.shroomlight.name=Gloeizwam 15
 tile.end_rod.name=End-staaf 14
 tile.torch.name=Fakkel 14
@@ -327,7 +457,7 @@ tile.soul_lantern.name=Zielenlantaarn 10
 tile.soul_torch.name=Zielenfakkel 10
 tile.enchanting_table.name=Betoveringstafel 7
 tile.enderChest.name=Enderkist 7
-tile.glow_lichen.name=Gloeikorstmos 7
+tile.glow_lichen.name=Gloeikorstmos 50
 tile.redstone_torch.name=Redstone-fakkel 7
 tile.amethyst_cluster.name=Amethistcluster 5
 tile.large_amethyst_bud.name=Grote amethistscheut 4
@@ -463,26 +593,27 @@ item.record_creator.desc=Lena Raine - Creator 2:56
 item.record_creator_music_box.desc=Lena Raine - Creator (Music Box) 1:13
 item.record_precipice.desc=Aaron Cherof - Precipice 4:59
 item.record_tears.desc=Amos Roddy - Tears 2:55
-item.record_lava_chicken.desc=Hyper Potions - Lava Chicken  2:15
+item.record_lava_chicken.desc=Hyper Potions - Lava Chicken 2:15
+item.record_bounce.desc=fingerspit - Bounce 3:54
 
 
 
 ## Animal Armor
 item.wolf_armor.name=Wolvenharnas 100
-item.horsearmorleather.name=Leren paardenpantser 1,5
+item.horsearmorleather.name=Leren paardenharnas 1,5
 item.copper_horse_armor.name=Koperen paardenharnas 2
-item.horsearmoriron.name=IJzeren paardenpantser 2,5
+item.horsearmoriron.name=IJzeren paardenharnas 2,5
 item.horsearmorgold.name=Gouden paardenharnas 3,5
-item.horsearmordiamond.name=Diamanten paardenpantser 5,5
+item.horsearmordiamond.name=Diamanten paardenharnas 5,5
 item.netherite_horse_armor.name=Netheriet-paardenharnas 9,5
-item.copper_nautilus_armor.name=Koperen Nautilus-harnas 2
-item.iron_nautilus_armor.name=IJzeren Nautilus-harnas 2,5
-item.golden_nautilus_armor.name=Gouden Nautilus-harnas 3,5
-item.diamond_nautilus_armor.name=Diamanten Nautilus-harnas 5,5
-item.netherite_nautilus_armor.name=Netheriet Nautilus-harnas 9,5
+item.copper_nautilus_armor.name=Koperen nautilus-harnas 2
+item.iron_nautilus_armor.name=IJzeren nautilus-harnas 2,5
+item.golden_nautilus_armor.name=Gouden nautilus-harnas 3,5
+item.diamond_nautilus_armor.name=Diamanten nautilus-harnas 5,5
+item.netherite_nautilus_armor.name=Netheriet nautilus-harnas 9,5
 
- 
- 
+
+
 ## Armor and Tools
 item.leather_helmet.name=Leren kap 0,5 56
 item.chainmail_helmet.name=Maliënhelm 1 166
@@ -511,7 +642,7 @@ item.netherite_leggings.name=Netherieten beenbeschermers 3 556
  
 item.leather_boots.name=Leren laarzen 0,5 66
 item.chainmail_boots.name=Maliënlaarzen 0,5 196
-
+item.copper_boots.name=Koperen laarzen 0,5 144
 item.iron_boots.name=IJzeren laarzen 1 196
 item.golden_boots.name=Gouden laarzen 0,5 92
 item.diamond_boots.name=Diamanten laarzen 1,5 430
@@ -561,9 +692,9 @@ item.copper_hoe.name=Koperen schoffel +3 191
 
 item.wooden_spear.name=Houten speer +1§b+§r 0.7x 0.65s 60
 item.stone_spear.name=Stenen speer +2§b+§r 0.82x 0.75s 132
-item.copper_spear.name=Koperen speer +2§b+§r  0.82x 0.85s 191
-item.iron_spear.name=IJzeren speer +3§b+§r  0.95x 0.95s 251
-item.golden_spear.name=Gouden speer +1§b+§r  0.7x 0.95s 33
+item.copper_spear.name=Koperen speer +2§b+§r 0.82x 0.85s 191
+item.iron_spear.name=IJzeren speer +3§b+§r 0.95x 0.95s 251
+item.golden_spear.name=Gouden speer +1§b+§r 0.7x 0.95s 33
 item.diamond_spear.name=Diamanten speer +4§b+§r 1.075x 1.05s 1562
 item.netherite_spear.name=Netheriet speer +5§b+§r 1.2x 1.15s 2032
 
@@ -693,7 +824,7 @@ item.spawn_egg.entity.dolphin.name=Dolfijnspawnei 10 HP 
 item.spawn_egg.entity.phantom.name=Fantoomspawnei 20 HP 
 item.spawn_egg.entity.panda.name=Pandaspawnei 20 HP
 item.spawn_egg.entity.pillager.name=Plunderaarspawnei 24 HP 
-item.spawn_egg.entity.piglin_brute.name=Zwijnenbruutspawnei 50 HP 
+item.spawn_egg.entity.piglin_brute.name=Piglin-bruutspawnei 50 HP 
 item.spawn_egg.entity.piglin.name=Piglinspawnei 16 HP 
 item.spawn_egg.entity.fox.name=Vosspawnei 20 HP 
 item.spawn_egg.entity.wandering_trader.name=Zwervende-handelaarspawnei 20 HP 
@@ -717,9 +848,10 @@ item.spawn_egg.entity.creaking.name=Creaking spawnei 1 HP 
 item.spawn_egg.entity.happy_ghast.name=Gelukkig Ghastspawnei 20 HP 
 item.spawn_egg.entity.copper_golem.name=Kopergolemspawnei 12 HP 
 item.spawn_egg.entity.nautilus.name=Nautilus-spawnei 15 HP 
-item.spawn_egg.entity.zombie_nautilus.name=Zombie Nautilus-spawnei 15 HP 
-item.spawn_egg.entity.parched.name=Uitgedroogd spawnei 16 HP 
+item.spawn_egg.entity.zombie_nautilus.name=Zombie nautilus-spawnei 15 HP 
+item.spawn_egg.entity.parched.name=Zoor spawnei 16 HP 
 item.spawn_egg.entity.camel_husk.name=Kameel-husk spawnei 32 HP 
+item.spawn_egg.entity.sulfur_cube.name=Zwavelkubusspawnei 8/4 HP 
 
 
 
@@ -1470,11 +1602,11 @@ item.fireworksCharge.purple= Paars
 item.fireworksCharge.red= Rood
 item.fireworksCharge.silver= Lichtgrijs
 item.fireworksCharge.trail= Spoor
-item.fireworksCharge.type.0= Kleine bal
-item.fireworksCharge.type.0= Kleine bal
-item.fireworksCharge.type.1= Grote bal
-item.fireworksCharge.type.2= Stervormig
-item.fireworksCharge.type.3= Creepervormig
-item.fireworksCharge.type.4= Knallend
+item.fireworksCharge.type.0= Kleine balvormige explosie
+item.fireworksCharge.type.0= Kleine balvormige explosie
+item.fireworksCharge.type.1= Grote balvormige explosie
+item.fireworksCharge.type.2= Stervormige explosie
+item.fireworksCharge.type.3= Creeper-vormige explosie
+item.fireworksCharge.type.4= Uitbarstende explosie
 item.fireworksCharge.white= Wit
 item.fireworksCharge.yellow= Geel
